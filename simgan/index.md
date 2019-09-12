@@ -4,13 +4,17 @@ This is leaves lighting, which is now exaplained by the noise vector.
 
 ## First 5 principal components of the shape
 ![](traversals/traversal_face_01.gif)
-![](image.png)
-![](image.png)
-![](image.png)
-![](image.png)
+![](traversals/traversal_face_1.gif)
+![](traversals/traversal_face_2.gif)
+![](traversals/traversal_face_3.gif)
+![](traversals/traversal_face_4.gif)
 
 ## Pose Variations
-
+![](traversals/traversal_face_5.gif)
+![](traversals/traversal_face_6.gif)
+![](traversals/traversal_face_7.gif)
+![](traversals/traversal_face_8.gif)
+![](traversals/traversal_face_9.gif)
 
 ## Color Variation
-
+![](traversals/traversal_face_random_color.gif)
