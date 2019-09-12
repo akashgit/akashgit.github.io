@@ -11,7 +11,7 @@ This is leaves lighting, which is now exaplained by the noise vector.
 
 ## Pose Variations (for fixed shape and color)
 ![](traversals/traversal_face_5.gif)
-![](traversals/traversal_face_6.gif)
+![](traversals/traversal_face_10.gif)
 ![](traversals/traversal_face_7.gif)
 ![](traversals/traversal_face_8.gif)
 ![](traversals/traversal_face_9.gif)
