@@ -22,7 +22,4 @@ This is leaves lighting, which is now exaplained by the noise vector.
 ![](traversals/color_left.gif)
 ![](traversals/color_pose.gif) 
 ![](traversals/color_shape.gif) 
- 
-
-![](traversals/color_pose_1.gif)
 
