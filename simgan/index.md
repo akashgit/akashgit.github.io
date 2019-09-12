@@ -17,10 +17,12 @@ This is leaves lighting, which is now exaplained by the noise vector.
 ![](traversals/traversal_face_9.gif)
 
 ## Color Variation (For the first principal direction of color) 
-#### For both, fixed and varying shape and poses to clearly show that we can control all these factors independently and are not merely taking averages.
+#### Varying color for fixed shape and pose
 ![](traversals/traversal_face_random_color.gif) 
 ![](traversals/color_small.gif) 
 ![](traversals/color_left.gif)
+### Varying pose and color together
 ![](traversals/color_pose.gif) 
+### Varying shape and color together 
 ![](traversals/color_shape.gif) 
 
