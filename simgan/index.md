@@ -18,3 +18,9 @@ This is leaves lighting, which is now exaplained by the noise vector.
 
 ## Color Variation (For the first principal direction for fixed shape and pose)
 ![](traversals/traversal_face_random_color.gif)
+![](traversals/color_small.gif)
+![](traversals/color_left.gif)
+![](traversals/color_right.png)
+![](traversals/color_pose.gif)
+![](traversals/color_pose1.gif)
+![](traversals/color_shape.gif)
