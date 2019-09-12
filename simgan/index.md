@@ -3,7 +3,11 @@ Based on the discussion yesterday I have adapted the current model to account fo
 This is leaves lighting, which is now exaplained by the noise vector.
 
 ## First 5 principal components of the shape
-
+![](traversals/traversal_face_01.gif)
+![](image.png)
+![](image.png)
+![](image.png)
+![](image.png)
 
 ## Pose Variations
 
