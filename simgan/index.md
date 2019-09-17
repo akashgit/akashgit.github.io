@@ -35,6 +35,14 @@ This is leaves lighting, which is now exaplained by the noise vector.
 ### Varying shape and color together 
 ![](traversals/color_shape.gif) 
 
+### Chairs
+![](traversals/chairs/0_2.gif) 
+![](traversals/chairs/1_1.gif) 
+![](traversals/chairs/2_2.gif)
+### Cars
+![](traversals/cars/0_blue.gif) 
+![](traversals/cars/1_blue.gif) 
+![](traversals/cars/2_blue.gif)
 # SWIM
 ![](traversals/swim/pred_only_1.gif)
 ![](traversals/swim/pred_only_3.gif)
