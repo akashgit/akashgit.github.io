@@ -4,8 +4,8 @@ Based on Josh's email here is a first attempt on transfer (without any tuning or
 
 ## Faces to CelebA
 ![](traversals/swim/traversal_face.gif)
-![](traversals/swim/traversal_face (1).gif)
-![](traversals/swim/traversal_face (2).gif)
+![](traversals/swim/traversal_face_1.gif)
+![](traversals/swim/traversal_face_2.gif)
 
 
 Based on the discussion with Josh yesterday I have adapted the current model to account for identity (shape), pose and color.
