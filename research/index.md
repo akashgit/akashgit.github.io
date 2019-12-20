@@ -239,6 +239,18 @@ is an effective, interpretable tool for analyzing large-scale extracellular reco
 ### Preprints
 
 <p>
+<a href="https://openreview.net/pdf?id=r1e74a4twH"><b>CZ-GEM: A Framework For Disentangled Representation Learning</b></a>.&nbsp;Akash Srivastava, Yamini Bansal, Yukun Ding, Bernhard Egger, Prasanna Sattigeri, Josh Tenenbaum, David D. Cox, Dan Gutfreund.
+</p>
+
+<p>
+   [ <a href="javascript:toggle('abscz2020', 'abs_link_cz2020', 'abstract')" id="abs_link_cz2020">abstract</a>
+   ]| <a href="https://github.com/AnonymousAuthors000/CZ-GEM">source code</a>
+</p>
+
+<div id="divcz2020"></div>
+<div style="display:none;" id="abscz2020"><div class="abstract">Learning disentangled representations of  data is one of the central themes in unsupervised learning in general and generative modelling in particular.  In this work,  we tackle a slightly more intricate scenario where the observations are generated from a conditional distribution of some known control variate and some latent noise variate.  To this end, we present a hierarchical model and a training method (CZ-GEM) that leverages some of the recent developments in likelihood-based and likelihood-free generative models.  We show that by formulation, CZ-GEM introduces the right inductive biases that ensure the disentanglement of the control from the noise variables, while also keeping the components of the control variate disentangled. This is achieved without compromising on the quality of the generated samples. Our approach is simple, general, and can be applied both in supervised and unsupervised settings.</div></div>
+
+<p>
 <a href="simvae.pdf"><b>SimVAE: Simulator-Assisted Training for
 Interpretable Generative Models</b></a>.&nbsp;Akash Srivastava, Jessie Rosenberg, Dan Gutfreund and David D. Cox.
 </p>
