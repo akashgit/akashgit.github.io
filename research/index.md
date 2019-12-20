@@ -243,8 +243,8 @@ is an effective, interpretable tool for analyzing large-scale extracellular reco
 </p>
 
 <p>
-   [ <a href="javascript:toggle('abscz2020', 'abs_link_cz2020', 'abstract')" id="abs_link_cz2020">abstract</a>
-   ]| <a href="https://github.com/AnonymousAuthors000/CZ-GEM">source code</a>
+   [ <a href="javascript:toggle('abscz2020', 'abs_link_cz2020', 'abstract')" id="abs_link_cz2020">abstract</a> 
+   | <a href="https://github.com/AnonymousAuthors000/CZ-GEM">source code</a> ]
 </p>
 
 <div id="divcz2020"></div>
