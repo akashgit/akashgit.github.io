@@ -22,6 +22,7 @@ Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/
 
 # News:
 - Our paper [Generative Ratio Matching Networks](https://openreview.net/pdf?id=SJg7spEYDS) got accepted at ICLR 2020.
+- New paper [CZ-GEM: A Framework For Disentangled Representation Learning](https://openreview.net/pdf?id=r1e74a4twH).
 - Our paper [Scalable Spike Source Localization in Extracellular Recordings using Amortized Variational Inference](http://akashgit.github.io/research/cole.pdf) got accepted at Neurips 2019.
 - New paper [SimVAE: Simulator-Assisted Training for Interpretable Generative Models.](http://akashgit.github.io/research/simvae.pdf)
 - New paper [BreGMN: scaled-Bregman Generative Modeling Networks.](http://akashgit.github.io/research/bregmn.pdf)
