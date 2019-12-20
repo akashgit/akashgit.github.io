@@ -195,6 +195,46 @@ Beta-Bernoulli (Indian buffet process) prior.</div></div>
 }
 </pre></div>
 
+<p>
+<a href="rmn.pdf"><b>Generative Ratio Matching Networks</b></a>.&nbsp;Akash Srivastava, Kai Xu, Michael U. Gutmann and Charles Sutton.In <i>International Conference on Learning Representations (ICLR)</i>.  2020.
+</p>
+
+<p>
+   [ <a href="javascript:toggle('absrmn2018', 'abs_link_rmn2018', 'abstract')" id="abs_link_rmn2018">abstract</a>
+| <a href="https://openreview.net/pdf?id=SJg7spEYDS">pdf</a> | <a href="https://anonymous.4open.science/r/240c54df-b287-411e-a125-056d6ecc757b/">source code</a>
+   ]
+</p>
+
+<div id="divrmn2018"></div>
+<div style="display:none;" id="absrmn2018"><div class="abstract">Deep generative models can learn to generate realistic-looking images, but many of the most effective methods are adversarial and involve a saddlepoint optimization, which require careful balancing of training between a generator network and a critic network. Maximum mean discrepancy networks (MMD-nets) avoid this issue by using kernel as a fixed adversary, but unfortunately they have not on their own been able to match the generative quality of adversarial training. In this work, we take their insight of using kernels as fixed adversaries further and present a novel method for training deep generative models that does not involve saddlepoint optimization. We call our method generative ratio matching or GRAM for short. In GRAM, the generator and the critic networks do not play a zero-sum game against each other, instead they do so against a fixed kernel. Thus GRAM networks are not only stable to train like MMD-nets but they also match and beat the generative quality of adversarially trained generative networks.</div></div>
+
+
+<p>
+<a href="cole.pdf"><b>Scalable Spike Source Localization in Extracellular
+Recordings using Amortized Variational Inference</b></a>.&nbsp;Cole L. Hurwitz, Kai Xu, Akash Srivastava, Alessio Paolo Buccino and Matthias Hennig.In <i>Neurips</i>.  2019.
+</p>
+
+<p>
+   [ <a href="javascript:toggle('abscole2019', 'abs_link_cole2019', 'abstract')" id="abs_link_cole2019">abstract</a>
+   ]
+</p>
+
+<div id="divcole2019"></div>
+<div style="display:none;" id="abscole2019"><div class="abstract">Extracellular recordings using modern, dense probes provide detailed footprints of
+action potentials (spikes) from thousands of neurons simultaneously. Inferring the
+activity of single neurons from these recordings, however, is a complex blind source
+separation problem, complicated both by the high intrinsic data dimensionality and
+large data volume. Despite these complications, dense probes can allow for the
+estimation of a spike’s source location, a powerful feature for determining the firing
+neuron’s position and identity in the recording. Here we present a novel, generative
+model for inferring the source of individual spikes given observed electrical traces.
+To allow for scalable, efficient inference, we implement our model as a variational
+autoencoder and perform amortized variational inference. We evaluate our method
+on biophysically realistic simulated datasets, showing that our method outperforms
+heuristic localization methods such as center of mass and can improve spike sorting
+performance significantly. We further apply our model to real data to show that it
+is an effective, interpretable tool for analyzing large-scale extracellular recordings.</div></div>
+
 ---
 ### Preprints
 
@@ -251,61 +291,6 @@ and show that with the appropriate choice of base measure it can resolve the sup
 mismatch problem and incorporate geometric information. Finally, we study the
 performance of the proposed method and demonstrate promising results on MNIST,
 CelebA and CIFAR-10 datasets.</div></div>
-
-<p>
-<a href="rmn.pdf"><b>Ratio Matching MMD Nets: Low dimensional
-projections for effective deep generative models</b></a>.&nbsp;Akash Srivastava, Kai Xu, Michael U. Gutmann and Charles Sutton.
-</p>
-
-<p>
-   [ <a href="javascript:toggle('absrmn2018', 'abs_link_rmn2018', 'abstract')" id="abs_link_rmn2018">abstract</a>
-| <a href="https://github.com/akashgit/RM-MMDnet">source code</a>
-   ]
-</p>
-
-<div id="divrmn2018"></div>
-<div style="display:none;" id="absrmn2018"><div class="abstract">Deep generative models can learn to generate realistic-looking images on several
-natural image datasets, but many of the most effective methods are adversarial
-methods, which require careful balancing of training between a generator network
-and a discriminator network. Maximum mean discrepancy networks (MMD-nets)
-avoid this issue using the kernel trick, but unfortunately they have not on their
-own been able to match the performance of adversarial training. We present a new
-method of training MMD-nets, based on learning a mapping of samples from the
-data and from the model into a lower dimensional space, in which MMD training
-can be more effective. We call these networks ratio matching MMD networks (RM-
-MMDnets). We train the mapping to preserve density ratios between the densities
-over the low-dimensional space and the original space. This ensures that matching
-the model distribution to the data in the low-dimensional space will also match the
-original distributions. We show that RM-MMDnets have better performance and
-better stability than recent adversarial methods for training MMD-nets.</div></div>
-
-
-<p>
-<a href="cole.pdf"><b>Scalable Spike Source Localization in Extracellular
-Recordings using Amortized Variational Inference</b></a>.&nbsp;Cole L. Hurwitz, Kai Xu, Akash Srivastava, Alessio Paolo Buccino and Matthias Hennig.
-</p>
-
-<p>
-   [ <a href="javascript:toggle('abscole2019', 'abs_link_cole2019', 'abstract')" id="abs_link_cole2019">abstract</a>
-   ]
-</p>
-
-<div id="divcole2019"></div>
-<div style="display:none;" id="abscole2019"><div class="abstract">Extracellular recordings using modern, dense probes provide detailed footprints of
-action potentials (spikes) from thousands of neurons simultaneously. Inferring the
-activity of single neurons from these recordings, however, is a complex blind source
-separation problem, complicated both by the high intrinsic data dimensionality and
-large data volume. Despite these complications, dense probes can allow for the
-estimation of a spike’s source location, a powerful feature for determining the firing
-neuron’s position and identity in the recording. Here we present a novel, generative
-model for inferring the source of individual spikes given observed electrical traces.
-To allow for scalable, efficient inference, we implement our model as a variational
-autoencoder and perform amortized variational inference. We evaluate our method
-on biophysically realistic simulated datasets, showing that our method outperforms
-heuristic localization methods such as center of mass and can improve spike sorting
-performance significantly. We further apply our model to real data to show that it
-is an effective, interpretable tool for analyzing large-scale extracellular recordings.</div></div>
-
 
 <p>
 <a href="pam-naacl.pdf"><b>Variational Inference In Pachinko Allocation Machines</b></a>.&nbsp;Akash Srivastava and Charles Sutton.
