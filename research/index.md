@@ -211,7 +211,7 @@ Beta-Bernoulli (Indian buffet process) prior.</div></div>
 
 <p>
 <a href="cole.pdf"><b>Scalable Spike Source Localization in Extracellular
-Recordings using Amortized Variational Inference</b></a>.&nbsp;Cole L. Hurwitz, Kai Xu, Akash Srivastava, Alessio Paolo Buccino and Matthias Hennig.In <i>Neurips</i>.  2019.
+Recordings using Amortized Variational Inference</b></a>.&nbsp;Cole L. Hurwitz, Kai Xu, Akash Srivastava, Alessio Paolo Buccino and Matthias Hennig. In <i>Advances in Neural Information Processing Systems (NeurIPS)</i>.  2019.
 </p>
 
 <p>
