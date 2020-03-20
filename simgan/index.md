@@ -43,9 +43,4 @@ This is leaves lighting, which is now exaplained by the noise vector.
 ![](traversals/cars/0_blue.gif) 
 ![](traversals/cars/1_blue.gif) 
 ![](traversals/cars/2_blue.gif)
-# SWIM
-![](traversals/swim/pred_only_1.gif)
-![](traversals/swim/pred_only_3.gif)
-![](traversals/swim/pred_only_16.gif)
-![](traversals/swim/pred_only_27.gif)
 
