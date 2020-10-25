@@ -4,6 +4,7 @@ title: Research
 ---
 
 ### Publications
+#### For the most recent work, please look up my home page or my [google scholar page](https://scholar.google.com/citations?user=2h6SZeEAAAAJ&hl=en).
 <p>
 <a href="https://akashgit.github.io/autoencoding_vi_for_topic_models"><b>Autoencoding Variational Inference for Topic Models</b></a>.&nbsp;Akash Srivastava and Charles Sutton. In <i>International Conference on Learning Representations (ICLR)</i>.  2017.
 </p>
