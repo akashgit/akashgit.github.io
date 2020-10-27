@@ -21,7 +21,7 @@ Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/
 ---
 
 # News:
-- New paper [Improving the Reconstruction of Disentangled Representation Learners via Multi-Stage Modelling](https://paperswithcode.com/paper/improving-the-reconstruction-of-disentangled).
+- New paper [Improving the Reconstruction of Disentangled Representation Learners via Multi-Stage Modelling](https://arxiv.org/abs/2010.13187).
 - New paper [not-so-BigGAN: Generating High-Fidelity Images on Small Compute with Wavelet-based Super-Resolution](https://arxiv.org/abs/2009.04433).
 - New paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](https://openreview.net/pdf?id=-YCAwPdyPKw).
 - Our paper [Generative Ratio Matching Networks](https://openreview.net/pdf?id=SJg7spEYDS) got accepted at ICLR 2020.
