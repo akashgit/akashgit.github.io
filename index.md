@@ -15,7 +15,7 @@ title: Akash Srivastava
 <img style="float: right;" src="profile_akash.jpeg">
 
 #   Akash Srivastava
-I am a research scientist at the new [MIT-IBM lab](https://mitibmwatsonailab.mit.edu/) in Cambridge, MA where I work on [building machines with child-like common-sense and intuitive physics](https://bcs.mit.edu/) using probabilistic modeling and Bayesian inference. 
+I am a research scientist at the new [MIT-IBM lab](https://mitibmwatsonailab.mit.edu/) in Cambridge, MA where I work on unsupervised representation learning, deep generative models, contrastive learning and more recently, on [building machines with child-like common-sense and intuitive physics](https://bcs.mit.edu/) using probabilistic modeling and Bayesian inference. 
 Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/about/location/forum) at the University of Edinburgh where I worked with [Dr Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/) and [Dr Michael U. Gutmann](https://sites.google.com/site/michaelgutmann/) on variational inference for generative models using deep learning.
 
 ---
@@ -25,7 +25,6 @@ Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/
 - New paper [not-so-BigGAN: Generating High-Fidelity Images on Small Compute with Wavelet-based Super-Resolution](https://arxiv.org/abs/2009.04433).
 - New paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](https://openreview.net/pdf?id=-YCAwPdyPKw).
 - Our paper [Generative Ratio Matching Networks](https://openreview.net/pdf?id=SJg7spEYDS) got accepted at ICLR 2020.
-- New paper [CZ-GEM: A Framework For Disentangled Representation Learning](https://openreview.net/pdf?id=r1e74a4twH).
 - Our paper [Scalable Spike Source Localization in Extracellular Recordings using Amortized Variational Inference](http://akashgit.github.io/research/cole.pdf) got accepted at Neurips 2019.
 - New paper [SimVAE: Simulator-Assisted Training for Interpretable Generative Models.](http://akashgit.github.io/research/simvae.pdf)
 - New paper [BreGMN: scaled-Bregman Generative Modeling Networks.](http://akashgit.github.io/research/bregmn.pdf)
