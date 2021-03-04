@@ -27,7 +27,7 @@ Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/
 - Our paper [Generative Ratio Matching Networks](https://openreview.net/pdf?id=SJg7spEYDS) got accepted at ICLR 2020.
 - Our paper [Scalable Spike Source Localization in Extracellular Recordings using Amortized Variational Inference](http://akashgit.github.io/research/cole.pdf) got accepted at Neurips 2019.
 - New paper [SimVAE: Simulator-Assisted Training for Interpretable Generative Models.](http://akashgit.github.io/research/simvae.pdf)
-- New paper [BreGMN: scaled-Bregman Generative Modeling Networks.](http://akashgit.github.io/research/bregmn.pdf)
+- New paper [BreGMN: scaled-Bregman Generative Modeling Networks.](http://akashgit.github.io/research/BregmanGAN2020.pdf)
 - Our paper, [Variational Russian Roulette for Deep Bayesian Nonparametrics.](http://xuk.ai/assets/xu2019rave.pdf) got accepted at ICML, 2019.
 - Our paper, [Synthesis of Differentiable Functional Programs for Lifelong Learning](https://arxiv.org/abs/1804.00218) got accepted at NeuriPS, 2018.
 - New paper [Ratio Matching MMD Nets: Low dimensional projections for effective deep generative models.](http://akashgit.github.io/research/rmn.pdf) 
