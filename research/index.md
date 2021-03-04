@@ -276,7 +276,7 @@ graphics de-rendering and other natural science problems that involve inference
 via simulation.</div></div>
 
 <p>
-<a href="bregmn.pdf"><b>BreGMN: scaled-Bregman Generative Modeling
+<a href="BregmanGAN2020.pdf"><b>BreGMN: scaled-Bregman Generative Modeling
 Networks</b></a>.&nbsp;Akash Srivastava, Kristjan Greenewald and Farzaneh Mirzazadeh.
 </p>
 
