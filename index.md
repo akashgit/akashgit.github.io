@@ -21,8 +21,10 @@ Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/
 ---
 
 # News:
-- Our paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](/research/targeted_neural_dynamical_mode.pdf) got accepted at Neurips 2021.
-- Our paper [Targeted Neural Dynamical Modeling](/research/a_bayesian_symbolic_approach_t.pdf) got accepted at Neurips 2021.
+- Our paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](/research/a_bayesian_symbolic_approach_t.pdf) got accepted at Neurips 2021.
+- Our paper [Targeted Neural Dynamical Modeling](/research/targeted_neural_dynamical_mode.pdf) got accepted at Neurips 2021.
+- New paper [Scaling Densities for Improved Density Ratio Estimation](/research/CoB.pdf).
+- New paper [Equivariant Self-Supervised Learning: Encouraging Equivariance in Representations](/research/equi.pdf).
 - New paper [Improving the Reconstruction of Disentangled Representation Learners via Multi-Stage Modelling](https://arxiv.org/abs/2010.13187).
 - New paper [not-so-BigGAN: Generating High-Fidelity Images on Small Compute with Wavelet-based Super-Resolution](https://arxiv.org/abs/2009.04433).
 - New paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](https://openreview.net/pdf?id=-YCAwPdyPKw).
