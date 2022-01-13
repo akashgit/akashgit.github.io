@@ -19,6 +19,12 @@ I am a research scientist at the new [MIT-IBM lab](https://mitibmwatsonailab.mit
 Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/about/location/forum) at the University of Edinburgh where I worked with [Dr Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/) and [Dr Michael U. Gutmann](https://sites.google.com/site/michaelgutmann/) on variational inference for generative models using deep learning.
 
 ---
+# Current Projects/Grants
+- PI, Climate Change AI, 2022: Towards greener last-mile operations: Supporting cargo-bike logistics through optimized routing of multi-modal urban delivery fleets.
+- PI, MIT-IBM, 2021: Hybrid Generative Models. In collaboration with Prof. Faez Ahmed (MIT)
+- Co-PI, MIT-IBM, 2021: Representation Learning as a Tool for Causal Discovery. Led by Prof. Caroline Uhler (MIT) and Kristjan H Greenewald (MIT-IBM Research)
+- PI, MIT-IBM, 2020: Learning Priors for Transfer. In collaboration with Prof. Pulkit Agarwal (MIT)
+- Co-PI, DARPA, 2019: Machine Common Sense. Led by Prof. Josh Tenenbaum (MIT) and Dan Gutfreund (MIT-IBM Research)
 
 # News:
 - Our paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](/research/a_bayesian_symbolic_approach_t.pdf) got accepted at Neurips 2021.
