@@ -39,8 +39,7 @@ I am a principal investigator and research scientist at the [MIT-IBM AI Research
 - New paper [SimVAE: Simulator-Assisted Training for Interpretable Generative Models.](http://akashgit.github.io/research/simvae.pdf)
 - New paper [BreGMN: scaled-Bregman Generative Modeling Networks.](http://akashgit.github.io/research/BregmanGAN2020.pdf)
 - Our paper, [Variational Russian Roulette for Deep Bayesian Nonparametrics.](http://xuk.ai/assets/xu2019rave.pdf) got accepted at ICML, 2019.
-- Our paper, [Synthesis of Differentiable Functional Programs for Lifelong Learning](https://arxiv.org/abs/1804.00218) got accepted at NeuriPS, 2018.
-- New paper [Ratio Matching MMD Nets: Low dimensional projections for effective deep generative models.](http://akashgit.github.io/research/rmn.pdf) 
+- Our paper, [Synthesis of Differentiable Functional Programs for Lifelong Learning](https://arxiv.org/abs/1804.00218) got accepted at NeuriPS, 2018. 
 - Our paper, [Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam](https://arxiv.org/abs/1806.04854) got accepted at ICML, 2018.
 - I will be at the RIKEN Center for Advanced Intelligence Project, Japan during most of Feburary (2018) as a visiting researcher.
 - I will be interning at Microsoft Research with Dr John Winn, Cambridge this (2017) summer.
