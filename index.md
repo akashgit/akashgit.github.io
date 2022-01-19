@@ -34,7 +34,6 @@ I am a principal investigator and research scientist at the [MIT-IBM AI Research
 - New paper [Equivariant Self-Supervised Learning: Encouraging Equivariance in Representations](https://arxiv.org/pdf/2111.00899.pdf).
 - New paper [Improving the Reconstruction of Disentangled Representation Learners via Multi-Stage Modelling](https://arxiv.org/abs/2010.13187).
 - New paper [not-so-BigGAN: Generating High-Fidelity Images on Small Compute with Wavelet-based Super-Resolution](https://arxiv.org/abs/2009.04433).
-- New paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](https://openreview.net/pdf?id=-YCAwPdyPKw).
 - Our paper [Generative Ratio Matching Networks](https://openreview.net/pdf?id=SJg7spEYDS) got accepted at ICLR 2020.
 - Our paper [Scalable Spike Source Localization in Extracellular Recordings using Amortized Variational Inference](http://akashgit.github.io/research/cole.pdf) got accepted at Neurips 2019.
 - New paper [SimVAE: Simulator-Assisted Training for Interpretable Generative Models.](http://akashgit.github.io/research/simvae.pdf)
