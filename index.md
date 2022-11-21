@@ -15,17 +15,20 @@ title: Akash Srivastava
 <img style="float: right;" src="profile_akash.jpeg">
 
 #   Akash Srivastava
-<!-- I am a research scientist at the new [MIT-IBM lab](https://mitibmwatsonailab.mit.edu/) in Cambridge, MA where I work on unsupervised representation learning, deep generative models, contrastive learning and more recently, on [building machines with child-like common-sense and intuitive physics](https://bcs.mit.edu/) using probabilistic modeling and Bayesian inference. 
-Before this, I was a PhD student in the [Informatics Forum](http://www.ed.ac.uk/informatics/about/location/forum) at the University of Edinburgh where I worked with [Dr Charles Sutton](http://homepages.inf.ed.ac.uk/csutton/) and [Dr Michael U. Gutmann](https://sites.google.com/site/michaelgutmann/) on variational inference for generative models using deep learning. -->
-I am a principal investigator and research scientist at the [MIT-IBM AI Research Lab](https://mitibmwatsonailab.mit.edu/) in Cambridge, MA, where I work on self-supervised learning with [Prof Pulkit Agarwal's group](https://people.csail.mit.edu/pulkitag/), hybrid generative models with [Prof Faez Ahmed's group](https://decode.mit.edu/), density ratio estimation with [Prof Michael U. Gutmann](https://michaelgutmann.github.io/) and more recently, on machine common-sense and intuitive physics with [Prof Josh Tenenbaum's group](http://web.mit.edu/cocosci/josh.html) and causal discovery with [Prof Caroline Uhler](https://www.carolineuhler.com/). Before joining MIT-IBM, I obtained my PhD at the University of Edinburgh where I worked with [Prof Charles Sutton](https://homepages.inf.ed.ac.uk/csutton/) and [Prof Michael U. Gutmann](https://michaelgutmann.github.io/) on [variational inference for generative models and deep learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2h6SZeEAAAAJ&cstart=20&pagesize=80&citation_for_view=2h6SZeEAAAAJ:Tiz5es2fbqcC).
+I am a PI at the [MIT-IBM AI Research Lab](https://mitibmwatsonailab.mit.edu/) and the Chief Scientist at EBI within the Exploratory Sciences unit of IBM Research. I also the technical lead for the synthetic data generation efforts at IBM. My lab is located on campus, at 314 Main St (new MIT Meuseum building) in Cambridge, where my group works on topics ranging from self-supervised learning, deep generative models, differential and statistical privacy, density ratio estimation, machine common-sense, model calibration and uncertainity quantification and foundational models. Before joining MIT-IBM, I obtained my PhD at the University of Edinburgh where I worked with [Prof Charles Sutton](https://homepages.inf.ed.ac.uk/csutton/) and [Prof Michael U. Gutmann](https://michaelgutmann.github.io/) on [variational inference for generative models and deep learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2h6SZeEAAAAJ&cstart=20&pagesize=80&citation_for_view=2h6SZeEAAAAJ:Tiz5es2fbqcC).
 
 ---
 # Current Projects/Grants
-- PI, Climate Change AI, 2022: Towards greener last-mile operations: Supporting cargo-bike logistics through optimized routing of multi-modal urban delivery fleets.
-- PI, MIT-IBM, 2021: Hybrid Generative Models. In collaboration with Prof. Faez Ahmed (MIT)
-- Co-PI, MIT-IBM, 2021: Representation Learning as a Tool for Causal Discovery. Led by Prof. Caroline Uhler (MIT) and Kristjan H Greenewald (MIT-IBM Research)
-- PI, MIT-IBM, 2020: Learning Priors for Transfer. In collaboration with Prof. Pulkit Agarwal (MIT)
-- Co-PI, DARPA, 2019: Machine Common Sense. Led by Prof. Josh Tenenbaum (MIT) and Dan Gutfreund (MIT-IBM Research)
+- PI, MIT-IBM, 2023: Generative Modeling for Complex Mechanical Systems with Constraints. In collaboration with [Prof. Faez Ahmed (MIT)](https://decode.mit.edu/)
+- PI, MIT-IBM, 2023: Synthetic data and randomness in business and societal decision-making. In collaboration with [Prof. Dean Eckles (MIT)](https://www.deaneckles.com/)
+- PI, MIT-IBM, 2023: Generative active learning of atomistic simulators for silica materials. In collaboration with [Prof. Rafael Gomez-Bombarelli (MIT)](http://gomezbombarelli.mit.edu/)
+- PI, MIT-IBM, 2023: Rethinking the vehicle routing problem under the lens of modern machine learning techniques. In collaboration with [Dr. Matthias Winkenbach (MIT)](https://ctl.mit.edu/about/bio/matthias-winkenbach)
+- co-PI, MIT-IBM, 2023: Teaching Foundation Models 3D. Led by [Prof. Vincent Sitzmann (MIT)](https://www.vincentsitzmann.com/) and [Dr. Leonid Karlinsky (MIT-IBM Research)](https://scholar.google.com/citations?user=WbO7tjYAAAAJ&hl=en)
+- PI, [Climate Change AI](https://www.climatechange.ai/), 2022: Towards greener last-mile operations: Supporting cargo-bike logistics through optimized routing of multi-modal urban delivery fleets.
+- PI, MIT-IBM, 2021: Hybrid Generative Models. In collaboration with [Prof. Faez Ahmed (MIT)](https://decode.mit.edu/)
+- Co-PI, MIT-IBM, 2021: Representation Learning as a Tool for Causal Discovery. Led by [Prof. Caroline Uhler (MIT)](https://www.carolineuhler.com/) and [Dr. Kristjan H Greenewald (MIT-IBM Research)](https://kgreenewald.github.io/)
+- PI, MIT-IBM, 2020: Learning Priors for Transfer. In collaboration with [Prof. Pulkit Agarwal (MIT)](https://people.csail.mit.edu/pulkitag/)
+- Co-PI, DARPA, 2019: Machine Common Sense. Led by [Prof. Josh Tenenbaum (MIT)](http://web.mit.edu/cocosci/josh.html) and [Dr. Dan Gutfreund (MIT-IBM Research)](https://mitibmwatsonailab.mit.edu/people/dan-gutfreund/)
 
 # News:
 - Our paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](/research/a_bayesian_symbolic_approach_t.pdf) got accepted at Neurips 2021.
