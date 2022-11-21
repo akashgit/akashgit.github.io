@@ -2,7 +2,21 @@
 layout: default
 title: Akash Srivastava
 ---
-
+<!-- - Our paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](/research/a_bayesian_symbolic_approach_t.pdf) got accepted at Neurips 2021. -->
+<!-- - Our paper [Targeted Neural Dynamical Modeling](/research/targeted_neural_dynamical_mode.pdf) got accepted at Neurips 2021.
+- New paper [Scaling Densities for Improved Density Ratio Estimation](/research/CoB.pdf).
+- New paper [Equivariant Self-Supervised Learning: Encouraging Equivariance in Representations](https://arxiv.org/pdf/2111.00899.pdf).
+- New paper [Improving the Reconstruction of Disentangled Representation Learners via Multi-Stage Modelling](https://arxiv.org/abs/2010.13187).
+- New paper [not-so-BigGAN: Generating High-Fidelity Images on Small Compute with Wavelet-based Super-Resolution](https://arxiv.org/abs/2009.04433).
+- Our paper [Generative Ratio Matching Networks](https://openreview.net/pdf?id=SJg7spEYDS) got accepted at ICLR 2020.
+- Our paper [Scalable Spike Source Localization in Extracellular Recordings using Amortized Variational Inference](http://akashgit.github.io/research/cole.pdf) got accepted at Neurips 2019.
+- New paper [SimVAE: Simulator-Assisted Training for Interpretable Generative Models.](http://akashgit.github.io/research/simvae.pdf)
+- New paper [BreGMN: scaled-Bregman Generative Modeling Networks.](http://akashgit.github.io/research/BregmanGAN2020.pdf)
+- Our paper, [Variational Russian Roulette for Deep Bayesian Nonparametrics.](http://xuk.ai/assets/xu2019rave.pdf) got accepted at ICML, 2019.
+- Our paper, [Synthesis of Differentiable Functional Programs for Lifelong Learning](https://arxiv.org/abs/1804.00218) got accepted at NeuriPS, 2018. 
+- Our paper, [Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam](https://arxiv.org/abs/1806.04854) got accepted at ICML, 2018.
+- I will be at the RIKEN Center for Advanced Intelligence Project, Japan during most of Feburary (2018) as a visiting researcher.
+- I will be interning at Microsoft Research with Dr John Winn, Cambridge this (2017) summer. -->
 <!-- <div class="blurb">
 	<h1>Akash Srivastava</h1>
 	<p>![profile](/profile.jpg) I'm a PhD student in the <a href="http://www.ed.ac.uk/informatics/about/location/forum">Informatics Forum </a>, 
@@ -34,22 +48,6 @@ I am a PI at the [MIT-IBM AI Research Lab](https://mitibmwatsonailab.mit.edu/) a
 - I am always looking for talented students to join my group interns and collaborators. If you are a student at MIT, looking for an internship/work-experience/collaboration and are interested in any of the following topics, please get in touch: 1. Information obfuscation and synthetic data generation. 2. Time-series differential privacy. 3. User-level differential privacy. 4. Deep generative modeling for domains that require high precision and constraint satisfaction 5. Density ratio estimation in high-dimensional data 6. Understanding large language models using probabilistic graphical modeling 7. Uncertainty quantification and model calibration in self-supervised representation learning.
 - Our project on generative models for inverse linkage synthesis was recently featured in [MIT's spectrum magazine](https://spectrum.mit.edu/fall-2022/design-for-anything-and-everything/).
 - Read about how MIT-IBM lab and IBM Research are using synthetic data generation method to tackle real world problems in this [blog post](https://research.ibm.com/blog/synthetic-data-explained). It also features work from our work on generative models for engineering design problems.
-- Our paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](/research/a_bayesian_symbolic_approach_t.pdf) got accepted at Neurips 2021.
-<!-- - Our paper [Targeted Neural Dynamical Modeling](/research/targeted_neural_dynamical_mode.pdf) got accepted at Neurips 2021.
-- New paper [Scaling Densities for Improved Density Ratio Estimation](/research/CoB.pdf).
-- New paper [Equivariant Self-Supervised Learning: Encouraging Equivariance in Representations](https://arxiv.org/pdf/2111.00899.pdf).
-- New paper [Improving the Reconstruction of Disentangled Representation Learners via Multi-Stage Modelling](https://arxiv.org/abs/2010.13187).
-- New paper [not-so-BigGAN: Generating High-Fidelity Images on Small Compute with Wavelet-based Super-Resolution](https://arxiv.org/abs/2009.04433).
-- Our paper [Generative Ratio Matching Networks](https://openreview.net/pdf?id=SJg7spEYDS) got accepted at ICLR 2020.
-- Our paper [Scalable Spike Source Localization in Extracellular Recordings using Amortized Variational Inference](http://akashgit.github.io/research/cole.pdf) got accepted at Neurips 2019.
-- New paper [SimVAE: Simulator-Assisted Training for Interpretable Generative Models.](http://akashgit.github.io/research/simvae.pdf)
-- New paper [BreGMN: scaled-Bregman Generative Modeling Networks.](http://akashgit.github.io/research/BregmanGAN2020.pdf)
-- Our paper, [Variational Russian Roulette for Deep Bayesian Nonparametrics.](http://xuk.ai/assets/xu2019rave.pdf) got accepted at ICML, 2019.
-- Our paper, [Synthesis of Differentiable Functional Programs for Lifelong Learning](https://arxiv.org/abs/1804.00218) got accepted at NeuriPS, 2018. 
-- Our paper, [Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam](https://arxiv.org/abs/1806.04854) got accepted at ICML, 2018.
-- I will be at the RIKEN Center for Advanced Intelligence Project, Japan during most of Feburary (2018) as a visiting researcher.
-- I will be interning at Microsoft Research with Dr John Winn, Cambridge this (2017) summer. -->
-
 ---
 
 
