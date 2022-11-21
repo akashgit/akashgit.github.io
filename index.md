@@ -32,7 +32,7 @@ title: Akash Srivastava
 I am a PI at the [MIT-IBM AI Research Lab](https://mitibmwatsonailab.mit.edu/) and the Chief Scientist at EBI within the Exploratory Sciences unit of IBM Research. I also serve as the technical lead for the synthetic data generation efforts at IBM. My lab is located on campus, at 314 Main St (new MIT Meuseum building) in Cambridge, where my group works on topics ranging from self-supervised learning, deep generative models, differential and statistical privacy, density ratio estimation, machine common-sense, model calibration and uncertainity quantification and foundational models. Before joining MIT-IBM, I obtained my PhD at the University of Edinburgh where I worked with [Prof Charles Sutton](https://homepages.inf.ed.ac.uk/csutton/) and [Prof Michael U. Gutmann](https://michaelgutmann.github.io/) on [variational inference for generative models and deep learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2h6SZeEAAAAJ&cstart=20&pagesize=80&citation_for_view=2h6SZeEAAAAJ:Tiz5es2fbqcC).
 
 ---
-# Current Projects/Grants
+# Current Projects
 - PI, MIT-IBM, 2023: Generative Modeling for Complex Mechanical Systems with Constraints. In collaboration with [Prof. Faez Ahmed (MIT)](https://decode.mit.edu/)
 - PI, MIT-IBM, 2023: Synthetic data and randomness in business and societal decision-making. In collaboration with [Prof. Dean Eckles (MIT)](https://www.deaneckles.com/)
 - PI, MIT-IBM, 2023: Generative active learning of atomistic simulators for silica materials. In collaboration with [Prof. Rafael Gomez-Bombarelli (MIT)](http://gomezbombarelli.mit.edu/)
