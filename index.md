@@ -51,7 +51,7 @@ I am a PI at the [MIT-IBM AI Research Lab](https://mitibmwatsonailab.mit.edu/) a
 - Read about our on-going work on making the last mile deliveries greeener, in this [blog post](https://www.climatechange.ai/blog/2022-10-11-grant-green-last-mile)
 
 ---
-- __I am always looking for talented students to join my group interns and collaborators. If you are a student at MIT, looking for an internship/work-experience/collaboration and are interested in any of the following topics, please get in touch: 1. Information obfuscation and synthetic data generation. 2. Time-series differential privacy. 3. User-level differential privacy. 4. Deep generative modeling for domains that require high precision and constraint satisfaction 5. Density ratio estimation in high-dimensional data 6. Understanding large language models using probabilistic graphical modeling 7. Uncertainty quantification and model calibration in self-supervised representation learning.__
+- __I am always looking for talented students to join my group as interns and/or collaborators. If you are a student at MIT, looking for an internship/work-experience/collaboration and are interested in any of the following topics, please get in touch as we have a rolling intake all year long: 1. Information obfuscation and synthetic data generation. 2. Time-series differential privacy. 3. User-level differential privacy. 4. Deep generative modeling for domains that require high precision and constraint satisfaction 5. Density ratio estimation in high-dimensional data 6. Understanding large language models using probabilistic graphical modeling 7. Uncertainty quantification and model calibration in self-supervised representation learning.__
 
 ---
 
