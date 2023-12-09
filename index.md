@@ -29,31 +29,33 @@ title: Akash Srivastava
 <img style="float: right;" src="profile_akash.jpeg">
 
 #   Akash Srivastava
-I am a PI at the [MIT-IBM AI Research Lab](https://mitibmwatsonailab.mit.edu/), a research manager at IBM Research, and the Chief Scientist at EBI within the Exploratory Sciences unit of IBM. I lead the AI Models Alignment Team, which is responsible for tuning and alignment of IBM foundation models. I also serve as the lead for the synthetic data generation efforts at IBM. My lab is located on campus, at 314 Main St (new MIT Museum building) in Cambridge, where my group works on topics ranging from foundation models, deep generative models, differential and statistical privacy, self-supervised learning density ratio estimation, machine common-sense, model calibration and uncertainty quantification. Before joining MIT-IBM, I obtained my PhD at the University of Edinburgh where I worked with [Prof Charles Sutton](https://homepages.inf.ed.ac.uk/csutton/) and [Prof Michael U. Gutmann](https://michaelgutmann.github.io/) on [variational inference for generative models and deep learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2h6SZeEAAAAJ&cstart=20&pagesize=80&citation_for_view=2h6SZeEAAAAJ:Tiz5es2fbqcC).
+I am a PI at the [MIT-IBM AI Research Lab](https://mitibmwatsonailab.mit.edu/), and the Chief Architect of Large Language Model Alignment at IBM Research, where I (1) oversee the tuning and alignment of IBM's foundation models and (2) lead the synthetic data generation efforts. My lab is located on campus, at 314 Main St (new MIT Museum building) in Cambridge. 
+
+Before joining MIT-IBM, I obtained my PhD at the University of Edinburgh where I worked with [Prof Charles Sutton](https://homepages.inf.ed.ac.uk/csutton/) and [Prof Michael U. Gutmann](https://michaelgutmann.github.io/) on [variational inference for generative models and deep learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2h6SZeEAAAAJ&cstart=20&pagesize=80&citation_for_view=2h6SZeEAAAAJ:Tiz5es2fbqcC).
+
+---
+
+# News:
+- I am hiring! If you work on alignment of LLMs and want to join my team (full-time or as a research intern (PhD Students)) to help us train __very__ large language models, please reach out! 
+- [7 papers accepted at Neurips 2023](https://www.linkedin.com/posts/dr-akash-sri_neurips-2023-activity-7111804654203613184-YiDS?utm_source=share&utm_medium=member_desktop)
+- [Read about how my team and colleagues are working on alignment of LLMs at IBM Research](https://research.ibm.com/blog/what-is-alignment-ai) 
+- Read about how MIT-IBM lab and IBM Research are using synthetic data generation methods to tackle real-world problems in this [blog post](https://research.ibm.com/blog/synthetic-data-explained). It also features work from our work on generative models for engineering design problems.
+- Our project on generative models for inverse linkage synthesis was recently featured in [MIT's spectrum magazine](https://spectrum.mit.edu/fall-2022/design-for-anything-and-everything/).
+- Read about our on-going work on making the last mile deliveries greener, in this [blog post](https://www.climatechange.ai/blog/2022-10-11-grant-green-last-mile)
 
 ---
 # Current Projects
-- PI, MIT-IBM, 2023: Generative Modeling for Complex Mechanical Systems with Constraints. In collaboration with [Prof. Faez Ahmed (MIT)](https://decode.mit.edu/)
-- PI, MIT-IBM, 2023: Synthetic data and randomness in business and societal decision-making. In collaboration with [Prof. Dean Eckles (MIT)](https://www.deaneckles.com/)
-- PI, MIT-IBM, 2023: Generative active learning of atomistic simulators for silica materials. In collaboration with [Prof. Rafael Gomez-Bombarelli (MIT)](http://gomezbombarelli.mit.edu/)
-- PI, MIT-IBM, 2023: Rethinking the vehicle routing problem under the lens of modern machine learning techniques. In collaboration with [Dr. Matthias Winkenbach (MIT)](https://ctl.mit.edu/about/bio/matthias-winkenbach)
+- PI, MIT-IBM, 2023: Generative Modeling for Complex Mechanical Systems with Constraints. w/ [Prof. Faez Ahmed (MIT)](https://decode.mit.edu/)
+- PI, MIT-IBM, 2023: Synthetic data and randomness in business and societal decision-making. w/ [Prof. Dean Eckles (MIT)](https://www.deaneckles.com/)
+- PI, MIT-IBM, 2023: Generative active learning of atomistic simulators for silica materials. w/ [Prof. Rafael Gomez-Bombarelli (MIT)](http://gomezbombarelli.mit.edu/)
+- PI, MIT-IBM, 2023: Rethinking the vehicle routing problem under the lens of modern machine learning techniques. w/ [Dr. Matthias Winkenbach (MIT)](https://ctl.mit.edu/about/bio/matthias-winkenbach)
 - co-PI, MIT-IBM, 2023: Teaching Foundation Models 3D. Led by [Prof. Vincent Sitzmann (MIT)](https://www.vincentsitzmann.com/) and [Dr. Leonid Karlinsky (MIT-IBM Research)](https://scholar.google.com/citations?user=WbO7tjYAAAAJ&hl=en)
 - PI, [Climate Change AI](https://www.climatechange.ai/), 2022: Towards greener last-mile operations: Supporting cargo-bike logistics through optimized routing of multi-modal urban delivery fleets.
-- PI, MIT-IBM, 2021: Hybrid Generative Models. In collaboration with [Prof. Faez Ahmed (MIT)](https://decode.mit.edu/)
+- PI, MIT-IBM, 2021: Hybrid Generative Models. w/ [Prof. Faez Ahmed (MIT)](https://decode.mit.edu/)
 - Co-PI, MIT-IBM, 2021: Representation Learning as a Tool for Causal Discovery. Led by [Prof. Caroline Uhler (MIT)](https://www.carolineuhler.com/) and [Dr. Kristjan H Greenewald (MIT-IBM Research)](https://kgreenewald.github.io/)
-- PI, MIT-IBM, 2020: Learning Priors for Transfer. In collaboration with [Prof. Pulkit Agarwal (MIT)](https://people.csail.mit.edu/pulkitag/)
+- PI, MIT-IBM, 2020: Learning Priors for Transfer. w/ [Prof. Pulkit Agarwal (MIT)](https://people.csail.mit.edu/pulkitag/)
 - Co-PI, DARPA, 2019: Machine Common Sense. Led by [Prof. Josh Tenenbaum (MIT)](http://web.mit.edu/cocosci/josh.html) and [Dr. Dan Gutfreund (MIT-IBM Research)](https://mitibmwatsonailab.mit.edu/people/dan-gutfreund/)
 
-# News:
-
-- Read about how MIT-IBM lab and IBM Research are using synthetic data generation method to tackle real world problems in this [blog post](https://research.ibm.com/blog/synthetic-data-explained). It also features work from our work on generative models for engineering design problems.
-- Our project on generative models for inverse linkage synthesis was recently featured in [MIT's spectrum magazine](https://spectrum.mit.edu/fall-2022/design-for-anything-and-everything/).
-- Read about our on-going work on making the last mile deliveries greeener, in this [blog post](https://www.climatechange.ai/blog/2022-10-11-grant-green-last-mile)
-
----
-- __I am always looking for talented students to join my group as interns and/or collaborators. If you are a student at MIT, looking for an internship/work-experience/collaboration and are interested in any of the following topics, please get in touch as we have a rolling intake all year long: 1. Information obfuscation and synthetic data generation. 2. Time-series differential privacy. 3. User-level differential privacy. 4. Deep generative modeling for domains that require high precision and constraint satisfaction 5. Density ratio estimation in high-dimensional data 6. Understanding large language models using probabilistic graphical modeling 7. Uncertainty quantification and model calibration in self-supervised representation learning.__
-
----
 
 
 
