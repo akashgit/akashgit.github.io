@@ -2,59 +2,56 @@
 layout: default
 title: Akash Srivastava
 ---
-<!-- - Our paper [A Bayesian-Symbolic Approach to Learning and Reasoning for Intuitive Physics](/research/a_bayesian_symbolic_approach_t.pdf) got accepted at Neurips 2021. -->
-<!-- - Our paper [Targeted Neural Dynamical Modeling](/research/targeted_neural_dynamical_mode.pdf) got accepted at Neurips 2021.
-- New paper [Scaling Densities for Improved Density Ratio Estimation](/research/CoB.pdf).
-- New paper [Equivariant Self-Supervised Learning: Encouraging Equivariance in Representations](https://arxiv.org/pdf/2111.00899.pdf).
-- New paper [Improving the Reconstruction of Disentangled Representation Learners via Multi-Stage Modelling](https://arxiv.org/abs/2010.13187).
-- New paper [not-so-BigGAN: Generating High-Fidelity Images on Small Compute with Wavelet-based Super-Resolution](https://arxiv.org/abs/2009.04433).
-- Our paper [Generative Ratio Matching Networks](https://openreview.net/pdf?id=SJg7spEYDS) got accepted at ICLR 2020.
-- Our paper [Scalable Spike Source Localization in Extracellular Recordings using Amortized Variational Inference](http://akashgit.github.io/research/cole.pdf) got accepted at Neurips 2019.
-- New paper [SimVAE: Simulator-Assisted Training for Interpretable Generative Models.](http://akashgit.github.io/research/simvae.pdf)
-- New paper [BreGMN: scaled-Bregman Generative Modeling Networks.](http://akashgit.github.io/research/BregmanGAN2020.pdf)
-- Our paper, [Variational Russian Roulette for Deep Bayesian Nonparametrics.](http://xuk.ai/assets/xu2019rave.pdf) got accepted at ICML, 2019.
-- Our paper, [Synthesis of Differentiable Functional Programs for Lifelong Learning](https://arxiv.org/abs/1804.00218) got accepted at NeuriPS, 2018. 
-- Our paper, [Fast and Scalable Bayesian Deep Learning by Weight-Perturbation in Adam](https://arxiv.org/abs/1806.04854) got accepted at ICML, 2018.
-- I will be at the RIKEN Center for Advanced Intelligence Project, Japan during most of Feburary (2018) as a visiting researcher.
-- I will be interning at Microsoft Research with Dr John Winn, Cambridge this (2017) summer. -->
-<!-- <div class="blurb">
-	<h1>Akash Srivastava</h1>
-	<p>![profile](/profile.jpg) I'm a PhD student in the <a href="http://www.ed.ac.uk/informatics/about/location/forum">Informatics Forum </a>, 
-		University of Edinburgh.</p>
-	<p>I'm currently working with <a href="http://homepages.inf.ed.ac.uk/csutton/">Dr Charles Sutton</a> 
-		on <a href="https://www.cs.princeton.edu/courses/archive/fall11/cos597C/lectures/variational-inference-i.pdf"> ![profile](/profile.jpg)  <img style="float: left;" src="/profile.jpg">
-		variational inference</a> and <br>interactive machine learning primarily for unsupervised models. </p>
-</div><!-- /.blurb --> 
 
 <img style="float: right;" src="profile_akash.jpeg">
 
-#   Akash Srivastava
-I am a PI at the [MIT-IBM AI Research Lab](https://mitibmwatsonailab.mit.edu/), and the Chief Architect of Large Language Model Alignment at IBM Research, where I (1) oversee the tuning and alignment of IBM's foundation models and (2) lead the synthetic data generation efforts. My lab is located on campus, at 314 Main St (new MIT Museum building) in Cambridge. 
+# Akash Srivastava
 
-Before joining MIT-IBM, I obtained my PhD at the University of Edinburgh where I worked with [Prof Charles Sutton](https://homepages.inf.ed.ac.uk/csutton/) and [Prof Michael U. Gutmann](https://michaelgutmann.github.io/) on [variational inference for generative models and deep learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2h6SZeEAAAAJ&cstart=20&pagesize=80&citation_for_view=2h6SZeEAAAAJ:Tiz5es2fbqcC).
+I am the Director and Chief Architect of Core AI at IBM, where I lead the research and development of **AgentOps**—our platform for building, evaluating, and optimizing agentic AI systems. My work spans three core pillars: (1) **Evaluation** through red-teaming and robustness testing, (2) **Optimization** via inference-time scaling, reinforcement learning, and post-training methods, and (3) **Observability** for production deployment. I also lead IBM's post-training efforts for foundation models, developing alignment techniques and synthetic data generation methods.
+
+I am a Principal Investigator at the [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/) and previously founded the **Red Hat AI Innovation Team** (now in advisory role), where we created [**InstructLab**](https://instructlab.ai/)—an open-source framework for LLM customization that went from concept to production in a record-breaking 9 months. InstructLab enables efficient model tuning and has been adopted by enterprises and the open-source community.
+
+Before joining IBM, I obtained my PhD at the University of Edinburgh, where I worked with [Prof Charles Sutton](https://homepages.inf.ed.ac.uk/csutton/) and [Prof Michael U. Gutmann](https://michaelgutmann.github.io/) on [variational inference for generative models and deep learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2h6SZeEAAAAJ&cstart=20&pagesize=80&citation_for_view=2h6SZeEAAAAJ:Tiz5es2fbqcC).
+
+---
+
+# News
+- **Now Hiring!** Looking for researchers and engineers to work on AgentOps, inference-time scaling, and post-training alignment for LLMs. If you're passionate about building robust agentic AI systems, reach out!
+- **InstructLab** is now live! Check out our [open-source framework](https://instructlab.ai/) for LLM customization, view the [GitHub repository](https://github.com/instructlab/instructlab), and read about the journey in this [IBM Research blog post](https://research.ibm.com/blog/instructlab-open-source-generative-ai).
+- **Research highlights (2025):** Four new papers on inference-time scaling using particle-based Monte Carlo methods—advancing the frontier of LLM reasoning and optimization during inference.
+- [**7 papers accepted at NeurIPS 2023**](https://www.linkedin.com/posts/dr-akash-sri_neurips-2023-activity-7111804654203613184-YiDS?utm_source=share&utm_medium=member_desktop) spanning alignment, diffusion models, and foundation models for planning.
+- **AgentOps platform** is transforming how we evaluate and optimize agentic systems through red-teaming, preference learning, and observability tools.
+- Read about our work on [LLM alignment at IBM Research](https://research.ibm.com/blog/what-is-alignment-ai) and how we're using [synthetic data generation](https://research.ibm.com/blog/synthetic-data-explained) to solve real-world challenges.
 
 ---
 
-# News:
-- I am hiring! If you work on alignment of LLMs and want to join my team (full-time or as a research intern (PhD Students)) to help us train __very__ large language models, please reach out! 
-- [7 papers accepted at Neurips 2023](https://www.linkedin.com/posts/dr-akash-sri_neurips-2023-activity-7111804654203613184-YiDS?utm_source=share&utm_medium=member_desktop)
-- [Read about how my team and colleagues are working on alignment of LLMs at IBM Research](https://research.ibm.com/blog/what-is-alignment-ai) 
-- Read about how MIT-IBM lab and IBM Research are using synthetic data generation methods to tackle real-world problems in this [blog post](https://research.ibm.com/blog/synthetic-data-explained). It also features work from our work on generative models for engineering design problems.
-- Our project on generative models for inverse linkage synthesis was recently featured in [MIT's spectrum magazine](https://spectrum.mit.edu/fall-2022/design-for-anything-and-everything/).
-- Read about our on-going work on making the last mile deliveries greener, in this [blog post](https://www.climatechange.ai/blog/2022-10-11-grant-green-last-mile)
+# Current Focus Areas
 
----
-# Current Projects
-- PI, MIT-IBM, 2023: Generative Modeling for Complex Mechanical Systems with Constraints. w/ [Prof. Faez Ahmed (MIT)](https://decode.mit.edu/)
-- PI, MIT-IBM, 2023: Synthetic data and randomness in business and societal decision-making. w/ [Prof. Dean Eckles (MIT)](https://www.deaneckles.com/)
-- PI, MIT-IBM, 2023: Generative active learning of atomistic simulators for silica materials. w/ [Prof. Rafael Gomez-Bombarelli (MIT)](http://gomezbombarelli.mit.edu/)
-- PI, MIT-IBM, 2023: Rethinking the vehicle routing problem under the lens of modern machine learning techniques. w/ [Dr. Matthias Winkenbach (MIT)](https://ctl.mit.edu/about/bio/matthias-winkenbach)
-- co-PI, MIT-IBM, 2023: Teaching Foundation Models 3D. Led by [Prof. Vincent Sitzmann (MIT)](https://www.vincentsitzmann.com/) and [Dr. Leonid Karlinsky (MIT-IBM Research)](https://scholar.google.com/citations?user=WbO7tjYAAAAJ&hl=en)
-- PI, [Climate Change AI](https://www.climatechange.ai/), 2022: Towards greener last-mile operations: Supporting cargo-bike logistics through optimized routing of multi-modal urban delivery fleets.
-- PI, MIT-IBM, 2021: Hybrid Generative Models. w/ [Prof. Faez Ahmed (MIT)](https://decode.mit.edu/)
-- Co-PI, MIT-IBM, 2021: Representation Learning as a Tool for Causal Discovery. Led by [Prof. Caroline Uhler (MIT)](https://www.carolineuhler.com/) and [Dr. Kristjan H Greenewald (MIT-IBM Research)](https://kgreenewald.github.io/)
-- PI, MIT-IBM, 2020: Learning Priors for Transfer. w/ [Prof. Pulkit Agarwal (MIT)](https://people.csail.mit.edu/pulkitag/)
-- Co-PI, DARPA, 2019: Machine Common Sense. Led by [Prof. Josh Tenenbaum (MIT)](http://web.mit.edu/cocosci/josh.html) and [Dr. Dan Gutfreund (MIT-IBM Research)](https://mitibmwatsonailab.mit.edu/people/dan-gutfreund/)
+## AgentOps Platform Development
+Leading research and engineering for IBM's AgentOps platform, focused on three core areas:
+- **Evaluation:** Red-teaming, robustness testing, and benchmark development for agentic systems ([Curiosity-Driven Red-Teaming](https://arxiv.org/abs/2402.19464), 2024)
+- **Optimization:** Inference-time scaling methods using particle-based Monte Carlo, reinforcement learning, and post-training techniques ([4 papers on inference-time scaling](https://scholar.google.com/citations?user=2h6SZeEAAAAJ), 2025)
+- **Observability:** Integration tools for monitoring and debugging production AI agents
+
+## Post-Training & Alignment Leadership
+Overseeing IBM's post-training efforts for foundation models:
+- **LAB method:** Large-scale Alignment for chatBots ([LAB paper](https://arxiv.org/abs/2403.01081), 2024)
+- **Preference learning:** Density ratio methods for reducing annotation costs ([Dr. SoW](https://arxiv.org/abs/2402.14402), 2024)
+- **Synthetic data generation:** Differentially private methods for alignment and evaluation
+
+## InstructLab - Open-Source LLM Customization
+Chief Architect and founder of [InstructLab](https://instructlab.ai/), an open-source framework enabling efficient LLM customization:
+- Went from concept to production in 9 months
+- Supports fine-tuning, alignment, and knowledge expansion
+- Adopted by enterprises and the open-source community
+- [GitHub](https://github.com/instructlab/instructlab) | [IBM Research Blog](https://research.ibm.com/blog/instructlab-open-source-generative-ai)
+
+## Research Themes
+Connecting current work to recent publications:
+- **Inference-time scaling:** Particle-based Monte Carlo methods for LLM reasoning (4 papers, 2025)
+- **Agent evaluation:** Red-teaming and robustness testing for agentic systems
+- **Alignment & preference learning:** RLHF, density ratios, and human feedback methods
+- **Model efficiency:** Fine-tuning, merging, and parameter-efficient techniques ([Model merging](https://arxiv.org/abs/2501.09084), [Continual learning](https://arxiv.org/abs/2501.09085), 2025)
 
 
 
