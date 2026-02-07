@@ -1,7 +1,0 @@
-name: Akash Srivastava
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-permalink: /blog/:year/:month/:day/:title
-# Google services
-google_analytics: UA-87695573-1

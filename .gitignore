@@ -1,1 +1,22 @@
 _site/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Ruby
+.bundle/
+vendor/
+Gemfile.lock
+
+# Build artifacts
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# OS files
+.DS_Store
+Thumbs.db

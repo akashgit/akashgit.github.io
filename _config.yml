@@ -1,0 +1,34 @@
+title: Akash Srivastava
+name: Akash Srivastava
+description: Personal academic website for Akash Srivastava - Director and Chief Architect, Core AI at IBM
+url: "https://akashgit.github.io"
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  hard_wrap: false
+
+permalink: /blog/:year/:month/:day/:title
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Google services
+google_analytics: UA-87695573-1
+
+# Build settings
+exclude:
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - postcss.config.js
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - README.md
+  - CLAUDE.md
