@@ -3,7 +3,7 @@ layout: default
 title: Akash Srivastava
 ---
 
-<img style="float: right;" src="profile_akash.jpeg">
+<img style="float: right; max-width: 300px; border-radius: 8px;" src="profile-new.jpg">
 
 # Akash Srivastava
 
