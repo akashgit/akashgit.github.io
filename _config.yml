@@ -18,7 +18,7 @@ plugins:
   - jekyll-sitemap
 
 # Google services
-google_analytics: UA-87695573-1
+# google_analytics: UA-87695573-1  # Removed - UA stopped working July 2024
 
 # Build settings
 exclude:

@@ -2,9 +2,15 @@
 layout: default
 comments: true
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<article class="max-w-3xl mx-auto">
+  <header class="mb-8">
+    <h1 class="text-4xl font-bold text-neutral-900 mb-2">{{ page.title }}</h1>
+    <p class="text-sm text-neutral-600">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+    </p>
+  </header>
 
-<div class="post">
-  {{ content }}
-</div>
+  <div class="post prose prose-lg max-w-none">
+    {{ content }}
+  </div>
+</article>

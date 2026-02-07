@@ -3,59 +3,18 @@
 @tailwind utilities;
 
 @layer base {
-  /* Minimal styling to match original design - will be modernized in Phase 1.2 & 2.x */
-
-  body {
-    margin: 60px auto;
-    width: 70%;
+  /* Preserve math rendering styles */
+  .inline-equation .katex,
+  .equation .katex {
+    font-size: inherit;
   }
 
-  nav ul, footer ul {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+  .equation {
+    margin: 1.5em 0;
+    overflow-x: auto;
   }
 
-  nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-
-  a {
-    text-decoration: none;
-    color: #999;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  h1 {
-    font-size: 3em;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  }
-
-  p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-  }
-
-  footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-  }
-
-  ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-  }
-
-  ul.posts li {
-    list-style: none;
-  }
-
+  /* Preserve utility border classes from original CSS */
   .insetBorder {
     border: 10px inset;
     padding: 50px;
@@ -76,26 +35,21 @@
     text-align: center;
   }
 
-  /* Preserve math rendering styles */
-  .katex, .katex-display {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  /* Preserve posts list styling */
+  ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
   }
 
-  script[type='math/tex'] {
-    display: inline-block;
-  }
-
-  script[type='math/tex; mode=display'] {
-    display: block;
-    margin: 1em 0;
+  ul.posts li {
+    list-style: none;
   }
 }
 
 @layer components {
-  /* Modern components will be added in Phase 1.2, 2.x, and 3.x */
-  /* Keeping minimal for now to preserve original design */
+  /* Modern components - Tailwind handles most styling now */
 }
 
 @layer utilities {
-  /* Custom utilities will be added in later phases as needed */
+  /* Custom utilities as needed */
 }
