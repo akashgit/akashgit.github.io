@@ -74,15 +74,71 @@ module.exports = {
           css: {
             maxWidth: '75ch',
             color: '#404040',
+            fontSize: '18px',
+            lineHeight: '1.7',
+            p: {
+              marginBottom: '1.25em',
+            },
             a: {
               color: '#1e40af',
+              textDecoration: 'none',
+              fontWeight: '500',
               '&:hover': {
                 color: '#1d4ed8',
+                textDecoration: 'underline',
               },
             },
             'h1, h2, h3, h4, h5, h6': {
               fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+              fontWeight: '600',
+              color: '#171717',
             },
+            h2: {
+              fontSize: '1.875rem',
+              marginTop: '2em',
+              marginBottom: '1em',
+            },
+            h3: {
+              fontSize: '1.5rem',
+              marginTop: '1.75em',
+              marginBottom: '0.75em',
+            },
+            code: {
+              color: '#404040',
+              backgroundColor: '#f5f5f5',
+              padding: '0.25em 0.375em',
+              borderRadius: '0.25rem',
+              fontWeight: '400',
+            },
+            'code::before': {
+              content: '""',
+            },
+            'code::after': {
+              content: '""',
+            },
+            blockquote: {
+              fontStyle: 'italic',
+              borderLeftColor: '#2563eb',
+              borderLeftWidth: '4px',
+              paddingLeft: '1.5rem',
+              color: '#525252',
+            },
+            strong: {
+              color: '#171717',
+              fontWeight: '600',
+            },
+            ul: {
+              listStyleType: 'disc',
+            },
+            'ul > li::marker': {
+              color: '#2563eb',
+            },
+          },
+        },
+        lg: {
+          css: {
+            fontSize: '1.125rem',
+            lineHeight: '1.7',
           },
         },
       },
