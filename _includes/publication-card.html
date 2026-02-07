@@ -1,0 +1,49 @@
+<div class="publication-entry">
+  {% if include.image %}
+  <div class="publication-image">
+    <img src="{{ include.image }}" alt="{{ include.title }}" loading="lazy">
+  </div>
+  {% endif %}
+
+  <div class="publication-content">
+    <h3 class="publication-title">
+      {% if include.paper_url %}
+        <a href="{{ include.paper_url }}">{{ include.title }}</a>
+      {% else %}
+        {{ include.title }}
+      {% endif %}
+    </h3>
+
+    <p class="publication-authors">{{ include.authors }}</p>
+
+    <p class="publication-venue">{{ include.venue }}{% if include.year %}, {{ include.year }}{% endif %}</p>
+
+    {% if include.description %}
+    <p class="publication-description">{{ include.description }}</p>
+    {% endif %}
+
+    <div class="publication-links">
+      {% if include.paper_url %}
+        <a href="{{ include.paper_url }}" class="publication-link">Paper</a>
+      {% endif %}
+
+      {% if include.project_url %}
+        <a href="{{ include.project_url }}" class="publication-link">Project</a>
+      {% endif %}
+
+      {% if include.code_url %}
+        <a href="{{ include.code_url }}" class="publication-link">Code</a>
+      {% endif %}
+
+      {% if include.bibtex_id %}
+        <button onclick="toggleBibtex('{{ include.bibtex_id }}')" class="publication-link bibtex-toggle">BibTeX</button>
+      {% endif %}
+    </div>
+
+    {% if include.bibtex %}
+    <div id="bibtex-{{ include.bibtex_id }}" class="bibtex-container hidden">
+      <pre><code>{{ include.bibtex }}</code></pre>
+    </div>
+    {% endif %}
+  </div>
+</div>
