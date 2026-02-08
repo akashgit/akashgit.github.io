@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Publication PDF Downloader</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; padding: 24px; background: #0f172a; color: #e2e8f0; }
+        h1 { margin-bottom: 8px; color: #f1f5f9; }
+        .subtitle { color: #94a3b8; margin-bottom: 20px; }
+        .controls { margin-bottom: 20px; display: flex; gap: 12px; align-items: center; }
+        button { padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 600; }
+        #startBtn { background: #3b82f6; color: white; }
+        #startBtn:hover { background: #2563eb; }
+        #startBtn:disabled { background: #475569; cursor: not-allowed; }
+        #stopBtn { background: #ef4444; color: white; display: none; }
+        .progress { background: #1e293b; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+        .progress-bar { height: 8px; background: #334155; border-radius: 4px; overflow: hidden; margin-top: 8px; }
+        .progress-fill { height: 100%; background: #3b82f6; border-radius: 4px; transition: width 0.3s; width: 0%; }
+        .log { background: #1e293b; border-radius: 8px; padding: 16px; max-height: 500px; overflow-y: auto; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 13px; line-height: 1.6; }
+        .log-entry { padding: 2px 0; }
+        .log-entry.success { color: #4ade80; }
+        .log-entry.error { color: #f87171; }
+        .log-entry.info { color: #60a5fa; }
+        .log-entry.warn { color: #fbbf24; }
+        .stats { display: flex; gap: 16px; margin-top: 12px; }
+        .stat { background: #334155; padding: 8px 16px; border-radius: 6px; }
+        .stat-num { font-size: 20px; font-weight: 700; }
+        .stat-label { font-size: 11px; color: #94a3b8; text-transform: uppercase; }
+        .note { background: #1e293b; border-left: 3px solid #f59e0b; padding: 12px 16px; border-radius: 0 8px 8px 0; margin-bottom: 20px; color: #fbbf24; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <h1>Publication PDF Batch Downloader</h1>
+    <p class="subtitle">Downloads PDFs for all 66 publications with available URLs</p>
+
+    <div class="note">
+        <strong>Before starting:</strong> Chrome may ask permission to download multiple files — click "Allow".
+        Files will be saved to your Downloads folder. After downloading, run <code>download_papers.py</code>
+        with the <code>--move-only</code> flag to move files and extract images.
+    </div>
+
+    <div class="controls">
+        <button id="startBtn" onclick="startDownload()">Start Batch Download</button>
+        <button id="stopBtn" onclick="stopDownload()">Stop</button>
+        <span id="status" style="color: #94a3b8;"></span>
+    </div>
+
+    <div class="progress">
+        <div id="progressText">0 / 66 papers</div>
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+        <div class="stats">
+            <div class="stat"><div class="stat-num" id="statOk">0</div><div class="stat-label">Downloaded</div></div>
+            <div class="stat"><div class="stat-num" id="statFail">0</div><div class="stat-label">Failed</div></div>
+            <div class="stat"><div class="stat-num" id="statSkip">0</div><div class="stat-label">No URL</div></div>
+        </div>
+    </div>
+
+    <div class="log" id="log"></div>
+
+<script>
+const PAPERS = [
+  {key:"srivastava2016clustering", pdf:"https://arxiv.org/pdf/1602.06886.pdf"},
+  {key:"srivastava2017autoencoding", pdf:"https://arxiv.org/pdf/1703.01488.pdf"},
+  {key:"srivastava2017veegan", pdf:"https://arxiv.org/pdf/1705.07761.pdf"},
+  {key:"valkov2018synthesis", pdf:"https://arxiv.org/pdf/1804.00218.pdf"},
+  {key:"srivastava2018variational", pdf:"https://arxiv.org/pdf/1804.07944.pdf"},
+  {key:"khan2018fast", pdf:"https://arxiv.org/pdf/1806.04854.pdf"},
+  {key:"valkov2018houdini", pdf:"https://proceedings.neurips.cc/paper/2018/file/edc27f139c3b4e4bb29d1cdbc45663f9-Paper.pdf"},
+  {key:"xu2019variational", pdf:"https://proceedings.mlr.press/v97/xu19e/xu19e.pdf"},
+  {key:"hurwitz2019scalable", pdf:"https://arxiv.org/pdf/1905.12375.pdf"},
+  {key:"srivastava2019bregmn", pdf:"https://arxiv.org/pdf/1906.00313.pdf"},
+  {key:"srivastava2019simvae", pdf:"https://arxiv.org/pdf/1911.08051.pdf"},
+  {key:"srivastava2019deep", pdf:"https://era.ed.ac.uk/bitstream/1842/36114/1/Srivastava2019.pdf"},
+  {key:"srivastava2020generative", pdf:"https://arxiv.org/pdf/1806.00101.pdf"},
+  {key:"hirt2020sequential", pdf:"https://arxiv.org/pdf/2003.13070.pdf"},
+  {key:"han2020not", pdf:"https://arxiv.org/pdf/2009.04433.pdf"},
+  {key:"srivastava2020improving", pdf:"https://arxiv.org/pdf/2010.13187.pdf"},
+  {key:"srivastava2024simulator", pdf:"https://patentimages.storage.googleapis.com/pdfs/US11915121.pdf"},
+  {key:"hurwitz2021targeted", pdf:"https://proceedings.neurips.cc/paper/2021/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf"},
+  {key:"xu2021bayesian", pdf:"https://proceedings.neurips.cc/paper/2021/file/147540e129e096fa91700e9db6588354-Paper.pdf"},
+  {key:"dangovski2021equivariant", pdf:"https://arxiv.org/pdf/2111.00899.pdf"},
+  {key:"loh2022importance", pdf:"https://arxiv.org/pdf/2210.04783.pdf"},
+  {key:"wang2023post", pdf:"https://proceedings.neurips.cc/paper_files/paper/2023/file/ca6980a3dba7fb3e4e66925656dba68b-Paper-Conference.pdf"},
+  {key:"srivastava2023estimating", pdf:"https://arxiv.org/pdf/2305.00869.pdf"},
+  {key:"loh2023multi", pdf:"https://proceedings.mlr.press/v202/loh23a/loh23a.pdf"},
+  {key:"han2023constructive", pdf:"https://arxiv.org/pdf/2304.00601.pdf"},
+  {key:"giannone2023aligning", pdf:"https://proceedings.neurips.cc/paper_files/paper/2023/file/a2fe4bb50fc6f3564cee1551d6309fea-Paper-Conference.pdf"},
+  {key:"regenwetter2023beyond", pdf:"https://arxiv.org/pdf/2302.02913.pdf"},
+  {key:"schrader2023modelling", pdf:"https://arxiv.org/pdf/2301.12887.pdf"},
+  {key:"han2023improving", pdf:"https://arxiv.org/pdf/2306.05414.pdf"},
+  {key:"valkov2023probabilistic", pdf:"https://arxiv.org/pdf/2306.06545.pdf"},
+  {key:"giannone2023learning", pdf:"https://arxiv.org/pdf/2306.15166.pdf"},
+  {key:"zhang2023identifiability", pdf:"https://proceedings.neurips.cc/paper_files/paper/2023/file/9d3a4cdf6f70559e8c6fe02170fba568-Paper-Conference.pdf"},
+  {key:"ajay2023compositional", pdf:"https://arxiv.org/pdf/2309.08587.pdf"},
+  {key:"sun2023private", pdf:"https://arxiv.org/pdf/2310.09729.pdf"},
+  {key:"hong2023beyond", pdf:"https://arxiv.org/pdf/2310.04413.pdf"},
+  {key:"chen2023analyzing", pdf:"https://proceedings.neurips.cc/paper_files/paper/2023/file/e0b6f389739496e363a89155c9448a8a-Paper-Conference.pdf"},
+  {key:"vishnubhotla2023towards", pdf:"https://proceedings.neurips.cc/paper_files/paper/2023/file/83c637c3bc0ca88eda6cf4f5f45bdced-Paper-Conference.pdf"},
+  {key:"sudalairaj2024lab", pdf:"https://arxiv.org/pdf/2403.01081.pdf"},
+  {key:"alimohammadi2024adapting", pdf:"https://arxiv.org/pdf/2405.18670.pdf"},
+  {key:"han2024value", pdf:"https://arxiv.org/pdf/2405.06639.pdf"},
+  {key:"nobari2024link", pdf:"https://arxiv.org/pdf/2405.20592.pdf"},
+  {key:"han2023improving_tuningfree", pdf:"https://arxiv.org/pdf/2306.05414.pdf"},
+  {key:"hong2024curiosity", pdf:"https://arxiv.org/pdf/2402.19464.pdf"},
+  {key:"loh2023mitigating", pdf:"https://openreview.net/pdf?id=PRrKOaDQtQ"},
+  {key:"regenwetter2024constraining", pdf:"https://openreview.net/pdf?id=FNBv2vweBI"},
+  {key:"schrader2024urban", pdf:"https://arxiv.org/pdf/2409.06730.pdf"},
+  {key:"nobari2025activation", pdf:"https://arxiv.org/pdf/2502.02421.pdf"},
+  {key:"han2024value_workshop", pdf:"https://openreview.net/pdf?id=XTbAvbm4vW"},
+  {key:"pareja2024unveiling", pdf:"https://arxiv.org/pdf/2412.13337.pdf"},
+  {key:"xu2024dr", pdf:"https://arxiv.org/pdf/2411.02481.pdf"},
+  {key:"zhang2024spectrum", pdf:"https://arxiv.org/pdf/2405.21050.pdf"},
+  {key:"chin2024learning", pdf:"https://arxiv.org/pdf/2403.00026.pdf"},
+  {key:"he2024dice", pdf:"https://arxiv.org/pdf/2410.08207.pdf"},
+  {key:"nayak2025sculpting", pdf:"https://arxiv.org/pdf/2504.07097.pdf"},
+  {key:"zhang2025soda", pdf:"https://openaccess.thecvf.com/content/WACV2025/papers/Zhang_SODA_Spectral_Orthogonal_Decomposition_Adaptation_for_Diffusion_Models_WACV_2025_paper.pdf"},
+  {key:"wang2025post", pdf:"https://patentimages.storage.googleapis.com/pdfs/US20250149455A1.pdf"},
+  {key:"eyceoz2025hopscotch", pdf:"https://arxiv.org/pdf/2506.03303.pdf"},
+  {key:"wang2025squat", pdf:"https://arxiv.org/pdf/2503.24358.pdf"},
+  {key:"singh2020single", pdf:"https://link.springer.com/content/pdf/10.1007/978-981-15-2043-3_36.pdf"},
+  {key:"alimohammadi2024differentially", pdf:"https://arxiv.org/pdf/2405.18670.pdf"},
+  {key:"puri2025rollout", pdf:"https://arxiv.org/pdf/2502.01618.pdf"},
+  {key:"dang2025inference", pdf:"https://arxiv.org/pdf/2507.08390.pdf"},
+  {key:"giannone2025mitigating", pdf:"https://arxiv.org/pdf/2510.05825.pdf"},
+  {key:"de1997different", pdf:"https://link.springer.com/content/pdf/10.1007/BF02848393.pdf"},
+];
+
+// Papers without PDF URLs (skipped)
+const SKIPPED = [
+  "srivastava2014burst", "heyrani2022links", "meyer2026unlocking", "elngar2021deep",
+  "srivastava2024simulator_patent", "giannone2025generative", "bhandwaldar2025contrastive"
+];
+
+let running = false;
+let ok = 0, fail = 0, skip = 0;
+
+function log(msg, cls='info') {
+    const el = document.getElementById('log');
+    const d = document.createElement('div');
+    d.className = `log-entry ${cls}`;
+    d.textContent = msg;
+    el.appendChild(d);
+    el.scrollTop = el.scrollHeight;
+}
+
+function updateStats(i, total) {
+    document.getElementById('progressText').textContent = `${i} / ${total} papers`;
+    document.getElementById('progressFill').style.width = `${(i/total)*100}%`;
+    document.getElementById('statOk').textContent = ok;
+    document.getElementById('statFail').textContent = fail;
+    document.getElementById('statSkip').textContent = skip;
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+async function downloadOne(key, pdfUrl) {
+    try {
+        const resp = await fetch(pdfUrl);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const blob = await resp.blob();
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${key}.pdf`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        return true;
+    } catch(e) {
+        log(`  ✗ ${key}: ${e.message}`, 'error');
+        return false;
+    }
+}
+
+async function startDownload() {
+    running = true;
+    ok = 0; fail = 0; skip = 0;
+    document.getElementById('startBtn').disabled = true;
+    document.getElementById('stopBtn').style.display = 'inline-block';
+    document.getElementById('log').innerHTML = '';
+
+    const total = PAPERS.length;
+    log(`Starting download of ${total} papers...`, 'info');
+    log(`(${SKIPPED.length} papers skipped — no PDF URL available)`, 'warn');
+    skip = SKIPPED.length;
+    updateStats(0, total);
+
+    for (let i = 0; i < total; i++) {
+        if (!running) { log('Stopped by user.', 'warn'); break; }
+
+        const p = PAPERS[i];
+        log(`[${i+1}/${total}] ${p.key}`, 'info');
+
+        const success = await downloadOne(p.key, p.pdf);
+        if (success) {
+            ok++;
+            log(`  ✓ ${p.key}.pdf`, 'success');
+        } else {
+            fail++;
+        }
+        updateStats(i+1, total);
+
+        // Delay between downloads to avoid overwhelming the browser
+        await sleep(1500);
+    }
+
+    log(`\nDone! ${ok} downloaded, ${fail} failed, ${skip} skipped.`, ok === total ? 'success' : 'warn');
+    document.getElementById('startBtn').disabled = false;
+    document.getElementById('stopBtn').style.display = 'none';
+    document.getElementById('status').textContent = 'Complete!';
+    running = false;
+}
+
+function stopDownload() {
+    running = false;
+    document.getElementById('stopBtn').style.display = 'none';
+    document.getElementById('status').textContent = 'Stopping...';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "folder": "bhandwaldar2025contrastive",
+    "status": "error",
+    "message": "Failed to download PDF from https://patents.google.com/patent/US20250369893A1"
+  },
+  {
+    "folder": "giannone2025generative",
+    "status": "error",
+    "message": "Failed to download PDF from https://patents.google.com/patent/US20240152879A1"
+  },
+  {
+    "folder": "srivastava2024simulator",
+    "status": "error",
+    "message": "Failed to download PDF from https://patents.google.com/patent/US11915121"
+  },
+  {
+    "folder": "wang2025post",
+    "status": "error",
+    "message": "Failed to download PDF from https://patents.google.com/patent/US20250149455A1"
+  },
+  {
+    "folder": "chen2023analyzing",
+    "status": "error",
+    "message": "Failed to download PDF from https://proceedings.neurips.cc/paper_files/paper/2023/hash/e0b6f389739496e363a89155c9448a8a-Abstract-Conference.html"
+  },
+  {
+    "folder": "elngar2021deep",
+    "status": "error",
+    "message": "Failed to download PDF from https://www.semanticscholar.org/paper/A-Deep-Learning-Based-Analysis-of-the-Big-Five-from-Elngar-Jain/302d179a5c43ec65eff4a6980af24c03f32e5c80"
+  },
+  {
+    "folder": "giannone2023aligning",
+    "status": "error",
+    "message": "Failed to download PDF from https://proceedings.neurips.cc/paper_files/paper/2023/hash/a2fe4bb50fc6f3564cee1551d6309fea-Abstract-Conference.html"
+  },
+  {
+    "folder": "vishnubhotla2023towards",
+    "status": "error",
+    "message": "Failed to download PDF from https://proceedings.neurips.cc//paper_files/paper/2023/hash/83c637c3bc0ca88eda6cf4f5f45bdced-Abstract-Conference.html"
+  },
+  {
+    "folder": "wang2023post",
+    "status": "error",
+    "message": "Failed to download PDF from https://proceedings.neurips.cc//paper_files/paper/2023/hash/ca6980a3dba7fb3e4e66925656dba68b-Abstract-Conference.html"
+  },
+  {
+    "folder": "zhang2023identifiability",
+    "status": "error",
+    "message": "Failed to download PDF from https://proceedings.neurips.cc//paper_files/paper/2023/hash/9d3a4cdf6f70559e8c6fe02170fba568-Abstract-Conference.html"
+  },
+  {
+    "folder": "de1997different",
+    "status": "error",
+    "message": "Failed to download PDF from https://link.springer.com/article/10.1007/BF02848393"
+  },
+  {
+    "folder": "han2024value_workshop",
+    "status": "error",
+    "message": "Failed to download PDF from https://openreview.net/forum?id=XTbAvbm4vW"
+  },
+  {
+    "folder": "heyrani2022links",
+    "status": "error",
+    "message": "Failed to download PDF from https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2022/86229/V03AT03A013/1150351"
+  },
+  {
+    "folder": "hurwitz2021targeted",
+    "status": "error",
+    "message": "Failed to download PDF from https://proceedings.neurips.cc/paper/2021/hash/f5cfbc876972bd0d031c8abc37344c28-Abstract.html"
+  },
+  {
+    "folder": "loh2023mitigating",
+    "status": "error",
+    "message": "Failed to download PDF from https://openreview.net/forum?id=PRrKOaDQtQ"
+  },
+  {
+    "folder": "loh2023multi",
+    "status": "error",
+    "message": "Failed to download PDF from https://proceedings.mlr.press/v202/loh23a.html"
+  },
+  {
+    "folder": "meyer2026unlocking",
+    "status": "error",
+    "message": "Failed to download PDF from https://academic.oup.com/nar/article/54/3/gkag023/8454528"
+  },
+  {
+    "folder": "regenwetter2024constraining",
+    "status": "error",
+    "message": "Failed to download PDF from https://openreview.net/forum?id=FNBv2vweBI"
+  },
+  {
+    "folder": "singh2020single",
+    "status": "error",
+    "message": "Failed to download PDF from https://link.springer.com/chapter/10.1007/978-981-15-2043-3_36"
+  },
+  {
+    "folder": "srivastava2014burst",
+    "status": "error",
+    "message": "Failed to download PDF from https://www.research.ed.ac.uk/en/publications/burst-detection-modulated-document-clustering-a-partially-feature-"
+  },
+  {
+    "folder": "srivastava2019deep",
+    "status": "error",
+    "message": "Failed to download PDF from https://era.ed.ac.uk/handle/1842/36114"
+  },
+  {
+    "folder": "valkov2018houdini",
+    "status": "error",
+    "message": "Failed to download PDF from https://proceedings.neurips.cc/paper/2018/hash/edc27f139c3b4e4bb29d1cdbc45663f9-Abstract.html"
+  },
+  {
+    "folder": "xu2019variational",
+    "status": "error",
+    "message": "Failed to download PDF from https://proceedings.mlr.press/v97/xu19e.html"
+  },
+  {
+    "folder": "xu2021bayesian",
+    "status": "error",
+    "message": "Failed to download PDF from https://proceedings.neurips.cc/paper/2021/hash/147540e129e096fa91700e9db6588354-Abstract.html"
+  }
+]

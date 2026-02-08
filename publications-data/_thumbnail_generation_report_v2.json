@@ -1,0 +1,159 @@
+[
+  {
+    "folder": "bhandwaldar2025contrastive",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://patents.google.com/patent/US20250369893A1 (requires manual download or authentication)",
+    "url": "https://patents.google.com/patent/US20250369893A1"
+  },
+  {
+    "folder": "giannone2025generative",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://patents.google.com/patent/US20240152879A1 (requires manual download or authentication)",
+    "url": "https://patents.google.com/patent/US20240152879A1"
+  },
+  {
+    "folder": "srivastava2024simulator",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://patents.google.com/patent/US11915121 (requires manual download or authentication)",
+    "url": "https://patents.google.com/patent/US11915121"
+  },
+  {
+    "folder": "wang2025post",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://patents.google.com/patent/US20250149455A1 (requires manual download or authentication)",
+    "url": "https://patents.google.com/patent/US20250149455A1"
+  },
+  {
+    "folder": "chen2023analyzing",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e0b6f389739496e363a89155c9448a8a-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/e0b6f389739496e363a89155c9448a8a-Paper-Conference.pdf"
+  },
+  {
+    "folder": "elngar2021deep",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://www.semanticscholar.org/paper/A-Deep-Learning-Based-Analysis-of-the-Big-Five-from-Elngar-Jain/302d179a5c43ec65eff4a6980af24c03f32e5c80 (requires manual download or authentication)",
+    "url": "https://www.semanticscholar.org/paper/A-Deep-Learning-Based-Analysis-of-the-Big-Five-from-Elngar-Jain/302d179a5c43ec65eff4a6980af24c03f32e5c80"
+  },
+  {
+    "folder": "giannone2023aligning",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/a2fe4bb50fc6f3564cee1551d6309fea-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/a2fe4bb50fc6f3564cee1551d6309fea-Paper-Conference.pdf"
+  },
+  {
+    "folder": "vishnubhotla2023towards",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://proceedings.neurips.cc//paper_files/paper/2023/hash/83c637c3bc0ca88eda6cf4f5f45bdced-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.neurips.cc//paper_files/paper/2023/file/83c637c3bc0ca88eda6cf4f5f45bdced-Paper-Conference.pdf"
+  },
+  {
+    "folder": "wang2023post",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://proceedings.neurips.cc//paper_files/paper/2023/hash/ca6980a3dba7fb3e4e66925656dba68b-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.neurips.cc//paper_files/paper/2023/file/ca6980a3dba7fb3e4e66925656dba68b-Paper-Conference.pdf"
+  },
+  {
+    "folder": "zhang2023identifiability",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://proceedings.neurips.cc//paper_files/paper/2023/hash/9d3a4cdf6f70559e8c6fe02170fba568-Abstract-Conference.html",
+    "pdf_url": "https://proceedings.neurips.cc//paper_files/paper/2023/file/9d3a4cdf6f70559e8c6fe02170fba568-Paper-Conference.pdf"
+  },
+  {
+    "folder": "de1997different",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://link.springer.com/article/10.1007/BF02848393 (requires manual download or authentication)",
+    "url": "https://link.springer.com/article/10.1007/BF02848393"
+  },
+  {
+    "folder": "han2024value_workshop",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://openreview.net/forum?id=XTbAvbm4vW",
+    "pdf_url": "https://openreview.net/pdf?id=XTbAvbm4vW"
+  },
+  {
+    "folder": "heyrani2022links",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2022/86229/V03AT03A013/1150351 (requires manual download or authentication)",
+    "url": "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2022/86229/V03AT03A013/1150351"
+  },
+  {
+    "folder": "hurwitz2021targeted",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://proceedings.neurips.cc/paper/2021/hash/f5cfbc876972bd0d031c8abc37344c28-Abstract.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper/2021/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf"
+  },
+  {
+    "folder": "loh2023mitigating",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://openreview.net/forum?id=PRrKOaDQtQ",
+    "pdf_url": "https://openreview.net/pdf?id=PRrKOaDQtQ"
+  },
+  {
+    "folder": "loh2023multi",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://proceedings.mlr.press/v202/loh23a.html",
+    "pdf_url": "https://proceedings.mlr.press/v202/loh23a/loh23a.pdf"
+  },
+  {
+    "folder": "meyer2026unlocking",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://academic.oup.com/nar/article/54/3/gkag023/8454528 (requires manual download or authentication)",
+    "url": "https://academic.oup.com/nar/article/54/3/gkag023/8454528"
+  },
+  {
+    "folder": "regenwetter2024constraining",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://openreview.net/forum?id=FNBv2vweBI",
+    "pdf_url": "https://openreview.net/pdf?id=FNBv2vweBI"
+  },
+  {
+    "folder": "singh2020single",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://link.springer.com/chapter/10.1007/978-981-15-2043-3_36 (requires manual download or authentication)",
+    "url": "https://link.springer.com/chapter/10.1007/978-981-15-2043-3_36"
+  },
+  {
+    "folder": "srivastava2014burst",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://www.research.ed.ac.uk/en/publications/burst-detection-modulated-document-clustering-a-partially-feature- (requires manual download or authentication)",
+    "url": "https://www.research.ed.ac.uk/en/publications/burst-detection-modulated-document-clustering-a-partially-feature-"
+  },
+  {
+    "folder": "srivastava2019deep",
+    "status": "skipped",
+    "message": "Cannot auto-download PDF from https://era.ed.ac.uk/handle/1842/36114 (requires manual download or authentication)",
+    "url": "https://era.ed.ac.uk/handle/1842/36114"
+  },
+  {
+    "folder": "valkov2018houdini",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://proceedings.neurips.cc/paper/2018/hash/edc27f139c3b4e4bb29d1cdbc45663f9-Abstract.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper/2018/file/edc27f139c3b4e4bb29d1cdbc45663f9-Paper.pdf"
+  },
+  {
+    "folder": "xu2019variational",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://proceedings.mlr.press/v97/xu19e.html",
+    "pdf_url": "https://proceedings.mlr.press/v97/xu19e/xu19e.pdf"
+  },
+  {
+    "folder": "xu2021bayesian",
+    "status": "success",
+    "message": "Created thumbnails",
+    "url": "https://proceedings.neurips.cc/paper/2021/hash/147540e129e096fa91700e9db6588354-Abstract.html",
+    "pdf_url": "https://proceedings.neurips.cc/paper/2021/file/147540e129e096fa91700e9db6588354-Paper.pdf"
+  }
+]
