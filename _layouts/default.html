@@ -45,10 +45,7 @@
 					<!-- Desktop menu -->
 					<ul class="hidden md:flex space-x-6 items-center">
 						<li><a href="/" class="text-neutral-700 hover:text-primary-600">Home</a></li>
-						<li><a href="/publications/" class="text-neutral-700 hover:text-primary-600">Publications</a></li>
-						<li><a href="/media/" class="text-neutral-700 hover:text-primary-600">Media</a></li>
-						<li><a href="https://scholar.google.com/citations?user=2h6SZeEAAAAJ&hl=en" class="text-neutral-700 hover:text-primary-600">Research</a></li>
-						<li><a href="/CV.pdf" class="text-neutral-700 hover:text-primary-600">CV</a></li>
+						<li><a href="https://scholar.google.com/citations?user=2h6SZeEAAAAJ&hl=en" class="text-neutral-700 hover:text-primary-600">Google Scholar</a></li>
 						<li><a href="https://uk.linkedin.com/in/akash-srivastava-aa97361b" class="text-neutral-700 hover:text-primary-600">LinkedIn</a></li>
 						<li><a href="https://twitter.com/variational_i" class="text-neutral-700 hover:text-primary-600">Twitter</a></li>
 					</ul>
@@ -58,10 +55,7 @@
 				<div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
 					<ul class="space-y-3">
 						<li><a href="/" class="block text-neutral-700 hover:text-primary-600 py-2">Home</a></li>
-						<li><a href="/publications/" class="block text-neutral-700 hover:text-primary-600 py-2">Publications</a></li>
-						<li><a href="/media/" class="block text-neutral-700 hover:text-primary-600 py-2">Media</a></li>
-						<li><a href="https://scholar.google.com/citations?user=2h6SZeEAAAAJ&hl=en" class="block text-neutral-700 hover:text-primary-600 py-2">Research</a></li>
-						<li><a href="/CV.pdf" class="block text-neutral-700 hover:text-primary-600 py-2">CV</a></li>
+						<li><a href="https://scholar.google.com/citations?user=2h6SZeEAAAAJ&hl=en" class="block text-neutral-700 hover:text-primary-600 py-2">Google Scholar</a></li>
 						<li><a href="https://uk.linkedin.com/in/akash-srivastava-aa97361b" class="block text-neutral-700 hover:text-primary-600 py-2">LinkedIn</a></li>
 						<li><a href="https://twitter.com/variational_i" class="block text-neutral-700 hover:text-primary-600 py-2">Twitter</a></li>
 					</ul>
@@ -69,8 +63,8 @@
 			</nav>
 		</header>
 
-		<main role="main" class="container mx-auto px-4 py-8 max-w-4xl">
-			<div class="prose prose-lg max-w-none">
+		<main role="main" class="container mx-auto px-4 py-6 max-w-4xl">
+			<div class="prose max-w-none">
 				{{ content }}
 			</div>
 		</main>
@@ -176,14 +170,5 @@
 		});
 		</script>
 
-		<!-- BibTeX toggle for publications -->
-		<script>
-		function toggleBibtex(id) {
-		  var element = document.getElementById('bibtex-' + id);
-		  if (element) {
-		    element.classList.toggle('hidden');
-		  }
-		}
-		</script>
 	</body>
 </html>
