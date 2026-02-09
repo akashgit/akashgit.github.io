@@ -9,7 +9,7 @@ title: Akash Srivastava
 
 I am the Director and Chief Architect of Core AI at IBM, where I lead [**AgentOps**](https://newsroom.ibm.com/2025-10-07-2025-ibm-and-anthropic-partner-to-advance-enterprise-software-development-with-proven-security-and-governance)—a platform for building, evaluating, and optimizing agentic AI systems.
 
-I am a Principal Investigator at the [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), where I led the post-training team for [Granite](https://www.ibm.com/granite). I also founded the **Red Hat AI Innovation Team** (now in advisory role), where we created [**InstructLab**](https://instructlab.ai/)—an open-source framework for LLM customization.
+I am a Principal Investigator at the [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), where I led the post-training team for [Granite](https://www.ibm.com/granite). I also founded the **[Red Hat AI](https://www.redhat.com/en/artificial-intelligence) [Innovation Team](https://ai-innovation.team/)** (now in advisory role), where we created [**InstructLab**](https://instructlab.ai/)—an open-source framework for LLM customization.
 
 I obtained my PhD at the University of Edinburgh, where I worked with [Prof Charles Sutton](https://homepages.inf.ed.ac.uk/csutton/) and [Prof Michael U. Gutmann](https://michaelgutmann.github.io/) on [variational inference and generative models](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2h6SZeEAAAAJ&cstart=20&pagesize=80&citation_for_view=2h6SZeEAAAAJ:Tiz5es2fbqcC).
 
