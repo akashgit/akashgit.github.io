@@ -7,7 +7,7 @@ title: Akash Srivastava
 
 # Akash Srivastava
 
-I am the Director and Chief Architect of Core AI at IBM, where I lead [**AgentOps**](https://newsroom.ibm.com/2025-10-07-2025-ibm-and-anthropic-partner-to-advance-enterprise-software-development-with-proven-security-and-governance)—a platform for building, evaluating, and optimizing agentic AI systems.
+I am the Director and Chief Architect of Core AI at IBM, where I lead [**AgentOps**](https://newsroom.ibm.com/2025-10-07-2025-ibm-and-anthropic-partner-to-advance-enterprise-software-development-with-proven-security-and-governance)—a platform for building, evaluating, and optimizing agentic AI systems. I built <img src="/media/refactory-logo.png" style="height:24px;vertical-align:middle;display:inline;margin:0 4px;" alt="Refactory">[**Refactory**](https://github.com/akashgit/remote-factory)—a self-evolving multi-agent system for autonomous software design and evolution. Refactory powers the [Lightwell AI](https://newsroom.ibm.com/2026-07-08-ibm-and-red-hat-expand-lightwell-with-new-commercial-offerings-to-build-the-trust-infrastructure-for-ai-era-open-source) pipeline, chip design AI, engineering design, and scientific discovery workflows.
 
 I am a Principal Investigator at the [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/), where I led the post-training team for [Granite](https://www.ibm.com/granite). I also founded the **[Red Hat AI](https://www.redhat.com/en/artificial-intelligence) [Innovation Team](https://ai-innovation.team/)** (now in advisory role), where we created [**InstructLab**](https://instructlab.ai/)—an open-source framework for LLM customization.
 
@@ -23,6 +23,7 @@ My research interests include **agentic AI systems**, **inference-time scaling a
 
 ## Selected Press
 
+- **[Turning 2D designs into 3D models for rapid prototyping](https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716)** — *MIT News, July 2026*
 - **[A smarter way for large language models to think about hard problems](https://news.mit.edu/2025/smarter-way-large-language-models-think-about-hard-problems-1204)** — *MIT News, December 2025*
 - **[AI DIY: How research is making custom language models work with more of us](https://research.redhat.com/blog/article/ai-diy-how-research-is-making-custom-language-models-work-with-more-of-us/)** — *Red Hat Research Quarterly, Spring 2025*
 - **[Beyond tokens per second: Unlocking smarter enterprise AI with inference-time scaling](https://www.redhat.com/en/blog/smarter-enterprise-ai-inference-time-scaling)** — *Red Hat Blog, May 2025*
@@ -44,17 +45,17 @@ My research interests include **agentic AI systems**, **inference-time scaling a
   image="/publications/thumbs/giannone2025mitigating.png"
   title="Mitigating Premature Exploitation in Particle-based Monte Carlo for Inference-Time Scaling"
   authors="Giorgio Giannone, Guangxuan Xu, Nikhil Shivakumar Nayak, Rohan Mahesh Awhad, Shivchander Sudalairaj, Kai Xu, <strong>Akash Srivastava</strong>"
-  venue="arXiv preprint"
-  year="2025"
+  venue="ICML"
+  year="2026"
   paper_url="https://arxiv.org/abs/2510.05825"
-  bibtex_id="giannone2025mitigating"
+  bibtex_id="giannone2025epf"
 %}
 
 {% include pub-row.html
   image="/publications/thumbs/puri2025rollout.png"
   title="Rollout Roulette: A Probabilistic Inference Approach to Inference-Time Scaling of LLMs"
   authors="Isha Puri, Shivchander Sudalairaj, Guangxuan Xu, Kai Xu, <strong>Akash Srivastava</strong>"
-  venue="arXiv preprint"
+  venue="NeurIPS"
   year="2025"
   paper_url="https://arxiv.org/abs/2502.01618"
   bibtex_id="puri2025rollout"
@@ -138,8 +139,8 @@ My research interests include **agentic AI systems**, **inference-time scaling a
   image="/publications/thumbs/nayak2025sculpting.png"
   title="Sculpting Subspaces: Constrained Full Fine-Tuning in LLMs for Continual Learning"
   authors="Nikhil Shivakumar Nayak, Krishnateja Killamsetty, Ligong Han, Abhishek Bhandwaldar, Prateek Chanda, Kai Xu, Hao Wang, Aldo Pareja, Oleg Silkin, Mustafa Eyceoz, <strong>Akash Srivastava</strong>, et al."
-  venue="arXiv preprint"
-  year="2025"
+  venue="ICLR"
+  year="2026"
   paper_url="https://arxiv.org/abs/2504.07097"
   bibtex_id="nayak2025sculpting"
 %}
@@ -168,8 +169,8 @@ My research interests include **agentic AI systems**, **inference-time scaling a
   image="/publications/thumbs/pareja2024unveiling.png"
   title="Unveiling the Secret Recipe: A Guide for Supervised Fine-Tuning Small LLMs"
   authors="Aldo Pareja, Nikhil Shivakumar Nayak, Hao Wang, Krishnateja Killamsetty, Shivchander Sudalairaj, Wenlong Zhao, Seungwook Han, Abhishek Bhandwaldar, Guangxuan Xu, Kai Xu, <strong>Akash Srivastava</strong>, et al."
-  venue="arXiv preprint"
-  year="2024"
+  venue="ICLR"
+  year="2025"
   paper_url="https://arxiv.org/abs/2412.13337"
   bibtex_id="pareja2024unveiling"
 %}
@@ -281,6 +282,26 @@ My research interests include **agentic AI systems**, **inference-time scaling a
 %}
 
 <h3>Foundation Models for Planning, Design, & Systems</h3>
+
+{% include pub-row.html
+  image="/publications/thumbs/giannone2026gift.png"
+  title="GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback"
+  authors="Giorgio Giannone, Anna Clare Doris, Amin Heyrani Nobari, Kai Xu, <strong>Akash Srivastava</strong>, Faez Ahmed"
+  venue="ICML"
+  year="2026"
+  paper_url="https://arxiv.org/abs/2603.27448"
+  bibtex_id="giannone2026gift"
+%}
+
+{% include pub-row.html
+  image="/publications/thumbs/bhandwaldar2026agent.png"
+  title="Agent Factories for High Level Synthesis: How Far Can General-Purpose Coding Agents Go in Hardware Optimization?"
+  authors="Abhishek Bhandwaldar, Mihir Choudhury, Ruchir Puri, <strong>Akash Srivastava</strong>"
+  venue="ICLAD"
+  year="2026"
+  paper_url="https://arxiv.org/abs/2603.25719"
+  bibtex_id="bhandwaldar2026agent"
+%}
 
 {% include pub-row.html
   image="/publications/thumbs/ajay2023compositional.png"
